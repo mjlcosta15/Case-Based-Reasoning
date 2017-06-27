@@ -1,30 +1,50 @@
 %-------------Carrega .xls-----------%
 
+clc;
+clearvars;
+
 filename = 'por.xls'; % nome do ficheiro
 data = readtable(filename); % abre o ficheiro
 [rows, columns] = size(data); % copia numero de linhas e colunas
 
-%disp(data);
-
 percentage = round(rows*0.7); % 70 por cento das linhas
 
-%low = '1';
-%high = int2str(percentage);
+vec = randperm(percentage); % gera um vetor de numeros aleatorios compreendidos entre 1 e 649
 
-%idx = randperm(percentage); 
-%set = idx(1:percentage);
+entry = strcat('school',',','sex',',','age',',','address',',','famsize',',','Pstatus',',','Medu',',','Fedu',',','Mjob',',','Fjob',',','reason',',','guardian',',','traveltime',',','studytime',',','failures',',','schoolsup',',','famsup',',','paid',',','activities',',','nursery',',','higher',',','internet',',','romantic',',','famrel',',','freetime',',','goout',',','Dalc',',','Walc',',','health',',','absences',',','G1',',','G2',',','G3');
 
-%data = readtable(filename,'Range', [low, ':',high]); % guarda ficheiro em 'data'
+dlmwrite('por.csv',entry,'Delimiter','','-append');
 
-vec = randperm(percentage);
-
-
-for i = vec
-    row1 = int2str(i);
+for i = 1 : length(vec) % percorre o vetor
+    
+    
+    row1 = int2str(i); % define intervalo
     row2 = int2str(i+1);
-    data = readtable(filename, 'Range',[row1,':',row2]);
-    %disp(data);
+    
+    table = readtable(filename, 'Range',[row1,':',row2]); % le intervalo
+    
+    row = table2cell(table); % linha completa
+    
+    entry = '';
+    entry = strcat(entry, row,',');
+        
+    dlmwrite('por.csv',entry,'Delimiter','','-append');
+
+    
+    %disp(cell);
+    
+    %csvname = strcat(row1,'.csv');
+    
+    %writetable(data,csvname,'Delimiter',',');
+    
+    
+    %dlmwrite('characters.csv', entry, 'delimiter', ';', '-append');
+    
 end
+
+clc;
+clearvars;
+ 
 
 
 

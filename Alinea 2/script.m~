@@ -4,29 +4,42 @@ filename = 'por.xls'; % nome do ficheiro
 data = readtable(filename); % abre o ficheiro
 [rows, columns] = size(data); % copia numero de linhas e colunas
 
-%disp(data);
-
 percentage = round(rows*0.7); % 70 por cento das linhas
 
-%low = '1';
-%high = int2str(percentage);
+vec = randperm(percentage); % gera um vetor de numeros aleatorios compreendidos entre 1 e 649
 
-%idx = randperm(percentage); 
-%set = idx(1:percentage);
+entry = '';
 
-%data = readtable(filename,'Range', [low, ':',high]); % guarda ficheiro em 'data'
-
-vec = randperm(percentage);
-
-disp(vec);
-
-for i = 1:percentage
-    num = find(vec,i);
-    row1 = int2str(num);
-    row2 = int2str(num);
-    data = readtable(filename, 'Range',[row1,':',row2]);
-    disp(data);
+for i = vec % percorre o vetor
+    
+    row1 = int2str(i); % define intervalo
+    row2 = int2str(i+1);
+    
+    table = readtable(filename, 'Range',[row1,':',row2]);
+    row = table2cell(table);
+    
+    for j = 1 :length(row)
+    
+        cell = row(j);
+        entry = strcat(entry, 
+        
+    
+    end
+    
+    dlmwrite('por.csv',cell,'-append');
+    
+    
+    %disp(cell);
+    
+    %csvname = strcat(row1,'.csv');
+    
+    %writetable(data,csvname,'Delimiter',',');
+    
+    
+    %dlmwrite('characters.csv', entry, 'delimiter', ';', '-append');
+    
 end
+ 
 
 
 
