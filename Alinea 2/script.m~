@@ -17,6 +17,7 @@ dlmwrite('por.csv',entry,'Delimiter','','-append');
 
 entry = '';
 mat = [];
+
 %-------------Grava .csv-----------%
 for i = 1 : length(vec) % percorre o vetor
     
@@ -26,30 +27,70 @@ for i = 1 : length(vec) % percorre o vetor
     table = readtable(filename, 'Range',[row1,':',row2]); % le intervalo
     
     cell = table2cell(table); % linha completa 
-    j=1;
+    
+    strRow = '';
+    
     for j = 1 : columns
         
-        if(j==columns) % ultima coluna
-            entry = cell{1,j};
+        entry = cell{1,j}; % le celula
+        
+        if isnumeric(entry)
+            entry = num2str(entry);
+            %disp(entry);
+        end
+        
+        if(j==columns) % divide notas de 1 a 4
             
-            if entry < 5
-            end
-            if entry > 5 && entry < 10
-            end
-            if entry 
+            switch entry
+                case 0
+                    entry = num2str(1);
+                    break;
+                case 1
+                    entry = num2str(1);
+                    break;
+                case 2
+                    entry = num2str(1);
+                    break;
+                case 3
+                    entry = num2str(1);
+                    break;
+                case 4
+                    entry = num2str(1);
+                    break;
+                case 5
+                    entry = num2str(1);
+                    break;
+                case 6
+                    entry = num2str(1);
+                    break;
+                case 7
+                    entry = num2str(1);
+                    break;
+                case 0
+                    entry = num2str(1);
+                    break;
+                case 1
+                    entry = num2str(1);
+                    break;
+                case 2
+                    entry = num2str(1);
+                    break;
+                case 3
+                    entry = num2str(1);
+                    break;
+                
+           
                 
         end
         
-        
+        strRow = strcat(strRow,entry,';');
         
     end
     
-    dlmwrite('por.csv',mat,'Delimiter','','-append');
+    dlmwrite('por.csv',strRow,'Delimiter','','-append'); 
     
-    
-end
-
-%clc;
+end 
+clc;
 clearvars;
  
 

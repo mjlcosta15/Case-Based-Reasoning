@@ -16,7 +16,7 @@ entry = strcat('school',';','sex',';','age',';','address',';','famsize',';','Pst
 dlmwrite('por.csv',entry,'Delimiter','','-append');
 
 entry = '';
-mat = [];
+
 %-------------Grava .csv-----------%
 for i = 1 : length(vec) % percorre o vetor
     
@@ -26,36 +26,40 @@ for i = 1 : length(vec) % percorre o vetor
     table = readtable(filename, 'Range',[row1,':',row2]); % le intervalo
     
     cell = table2cell(table); % linha completa 
-    j=1;
+    
+    strRow = '';
+    
     for j = 1 : columns
         
-        entry = cell{1,j};
+        entry = cell{1,j}; % le celula
         
-        if(j==columns) % divide notas de 1 a 4
+        if isnumeric(entry)
+            entry = num2str(entry);
+            %disp(entry);
+        end
+        
+        if j==columns % divide notas de 1 a 4
             
-            if entry < 5
-                entry = 1;
-            end
-            if entry > 5 && entry < 10
-                entry = 2;
-            end
-            if entry > 10 && entry < 15
-                entry = 3;
-            end
-            if entry > 15
-                entry = 4;
+            if str2double(entry) <= 4
+                entry = num2str(1);
+            elseif str2double(entry) > 4 && str2double(entry) < 10
+                entry = num2str(2);
+            elseif str2double(entry) >= 10 && str2double(entry) <= 15
+                entry = num2str(3);
+            elseif str2double(entry) > 15
+                entry = num2str(4);
             end
                 
         end
         
-        dlmwrite('por.csv',entry,'Delimiter','','-append'); 
+        strRow = strcat(strRow,entry,';');
         
     end
     
-end
-
-%clc;
-clearvars;
+    dlmwrite('por.csv',strRow,'Delimiter','','-append'); 
+    
+end 
+clc;
  
 
 
