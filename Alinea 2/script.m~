@@ -15,27 +15,37 @@ entry = strcat('school',';','sex',';','age',';','address',';','famsize',';','Pst
 
 dlmwrite('por.csv',entry,'Delimiter','','-append');
 
-
+entry = '';
+mat = [];
 %-------------Grava .csv-----------%
 for i = 1 : length(vec) % percorre o vetor
-    
     
     row1 = int2str(i); % define intervalo
     row2 = int2str(i+1);
     
     table = readtable(filename, 'Range',[row1,':',row2]); % le intervalo
     
-    row = table2cell(table); % linha completa 
-    
-    entry = '';
-    
-    for j = 1 : length(row)
+    cell = table2cell(table); % linha completa 
+    j=1;
+    for j = 1 : columns
         
-        entry = strcat(row{i,j}, ';
+        if(j==columns) % ultima coluna
+            entry = cell{1,j};
+            
+            if entry < 5
+            end
+            if entry > 5 && entry < 10
+            end
+            if entry 
+                
+        end
         
-        dlmwrite('por.csv',entry,'Delimiter','','-append');
-    
+        
+        
     end
+    
+    dlmwrite('por.csv',mat,'Delimiter','','-append');
+    
     
 end
 
