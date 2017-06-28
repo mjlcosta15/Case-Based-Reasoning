@@ -1,0 +1,1312 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Project name="Characters_CBR" author="" >
+<svs>
+  <sv name="_unknown_"/>
+  <sv name="_undefined_"/>
+  <sv name="_others_"/>
+<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="_unknown_">
+</qsym>
+<qsym name="_undefined_">
+</qsym>
+<qsym name="_others_">
+</qsym>
+</fct>
+</svs>
+<model>
+  <concept name="Characters">
+    <desc name="pos(3,4)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(7,12)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(4,1)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(14,6)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(15,17)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(15,3)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(4,15)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(13,9)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(14,12)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(8,17)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(10,11)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(3,11)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(7,9)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(8,6)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(10,2)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(1,18)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(13,20)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(7,11)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(2,6)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(9,3)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(11,15)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(2,8)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(3,3)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(7,13)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(10,3)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(15,4)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(15,18)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(16,1)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(4,14)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(14,11)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(12,19)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(10,12)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(14,7)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(6,20)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="caracter" type="String" mult="false" >
+      <fct name="default function" type="String" symm="true" config="EQUALITY" n="3" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(8,16)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(3,10)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(1,19)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(7,8)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(9,2)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(8,5)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(11,16)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(2,7)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(9,19)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(3,2)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(4,17)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(10,4)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(15,5)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(15,19)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(16,2)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(14,10)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(14,8)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(2,20)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(12,18)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(5,18)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(8,15)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(7,7)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(11,1)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(2,4)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(9,1)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(11,13)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(1,7)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(3,13)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(8,4)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(1,9)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(16,20)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(9,18)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(16,3)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(3,1)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(11,2)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(10,5)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(14,9)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(4,16)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(15,6)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(12,17)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(8,14)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(10,10)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(5,19)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(6,9)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(7,10)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(8,3)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(11,14)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(2,5)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(7,6)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(1,8)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(3,12)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(8,1)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(11,3)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(16,4)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(4,19)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(7,16)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(10,6)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(10,15)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(16,17)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(2,10)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(15,7)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(6,12)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(14,16)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(12,20)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(15,13)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(2,2)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(6,8)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(11,19)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(1,5)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(3,15)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(7,5)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(13,12)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(8,2)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(9,20)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(5,20)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(10,7)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(12,1)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(4,18)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(7,17)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(11,4)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(15,8)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(16,5)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(2,11)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(14,15)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(10,16)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(6,13)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(16,18)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(15,14)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(2,3)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(1,6)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(3,14)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(6,7)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(13,11)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(7,4)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(7,14)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(10,8)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(7,2)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(12,2)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(11,5)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(15,9)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(10,13)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(16,6)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(2,12)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(14,14)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(3,17)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(8,19)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(1,20)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(16,19)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(11,17)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(1,3)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(5,9)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(13,10)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(15,15)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(6,6)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(7,3)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(7,1)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(7,15)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(11,6)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(10,9)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(12,3)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(16,7)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(10,14)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(2,13)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(6,10)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(14,13)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(6,11)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(8,18)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(3,16)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(11,18)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(2,1)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(1,4)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(15,16)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(5,8)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(6,5)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(11,7)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(13,16)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(6,3)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(13,1)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(12,4)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(8,20)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(16,8)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(10,19)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(16,13)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(2,14)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(3,19)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(12,12)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(1,10)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(6,16)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(1,1)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(9,12)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(5,7)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(5,12)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(6,4)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(6,2)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(12,5)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(2,15)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(11,20)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(13,15)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(11,8)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(13,2)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(16,14)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(16,9)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(3,18)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(14,19)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(1,11)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(12,11)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(6,17)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(1,2)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(9,11)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(4,9)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(5,13)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(15,10)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(5,6)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(2,16)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(5,4)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(12,6)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(11,9)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(6,1)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(7,18)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(13,3)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(16,15)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(10,17)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(14,18)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(1,12)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(6,14)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(12,10)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(9,9)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(9,10)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(4,8)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(5,5)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(5,10)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(13,14)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(15,11)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(5,3)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(13,4)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(14,1)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(12,7)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(2,17)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(7,19)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(16,16)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(4,20)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(10,18)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(1,13)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(14,17)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(6,15)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(9,8)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(4,7)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(5,11)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(13,13)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(15,12)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(4,5)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(14,2)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(13,5)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(2,18)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(5,2)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(11,11)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(12,8)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(9,17)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(8,12)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(14,20)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(12,16)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(4,11)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(8,13)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(5,16)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(9,7)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(3,9)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(1,14)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(4,6)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(4,4)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(5,1)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(11,12)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(13,6)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(9,16)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(2,19)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(13,19)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(14,3)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(8,11)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(12,9)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(4,10)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(12,15)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(16,10)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(10,20)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(9,6)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(5,17)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(8,9)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(1,15)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(3,8)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(7,20)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(3,6)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(15,1)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(2,9)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(4,3)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(13,18)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(13,7)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(14,4)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(9,15)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(4,13)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(8,10)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(12,14)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(16,11)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(6,18)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(9,5)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(5,14)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(8,8)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(1,16)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(3,7)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(11,10)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(3,5)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(4,2)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(13,17)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(14,5)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(9,14)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(15,2)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(13,8)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(16,12)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(4,12)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(12,13)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(6,19)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(8,7)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(9,13)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(3,20)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(5,15)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(10,1)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(1,17)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(15,20)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="pos(9,4)" type="Integer" min="0" max="1" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <amalgam name="default function" type="EUCLIDEAN" active="true" >
+      <entry name="pos(3,4)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(7,12)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(4,1)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(14,6)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(15,17)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(15,3)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(4,15)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(13,9)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(14,12)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(8,17)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(10,11)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(3,11)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(7,9)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(8,6)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(10,2)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(1,18)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(13,20)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(7,11)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(2,6)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(9,3)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(11,15)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(2,8)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(3,3)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(7,13)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(10,3)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(15,4)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(15,18)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(16,1)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(4,14)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(14,11)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(12,19)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(10,12)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(14,7)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(6,20)" active="true" fct="default function" weight="1"/>
+      <entry name="caracter" active="true" fct="default function" weight="100.0"/>
+      <entry name="pos(8,16)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(3,10)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(1,19)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(7,8)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(9,2)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(8,5)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(11,16)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(2,7)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(9,19)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(3,2)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(4,17)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(10,4)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(15,5)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(15,19)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(16,2)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(14,10)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(14,8)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(2,20)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(12,18)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(5,18)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(8,15)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(7,7)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(11,1)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(2,4)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(9,1)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(11,13)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(1,7)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(3,13)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(8,4)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(1,9)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(16,20)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(9,18)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(16,3)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(3,1)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(11,2)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(10,5)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(14,9)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(4,16)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(15,6)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(12,17)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(8,14)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(10,10)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(5,19)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(6,9)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(7,10)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(8,3)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(11,14)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(2,5)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(7,6)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(1,8)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(3,12)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(8,1)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(11,3)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(16,4)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(4,19)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(7,16)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(10,6)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(10,15)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(16,17)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(2,10)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(15,7)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(6,12)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(14,16)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(12,20)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(15,13)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(2,2)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(6,8)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(11,19)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(1,5)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(3,15)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(7,5)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(13,12)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(8,2)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(9,20)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(5,20)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(10,7)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(12,1)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(4,18)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(7,17)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(11,4)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(15,8)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(16,5)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(2,11)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(14,15)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(10,16)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(6,13)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(16,18)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(15,14)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(2,3)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(1,6)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(3,14)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(6,7)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(13,11)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(7,4)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(7,14)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(10,8)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(7,2)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(12,2)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(11,5)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(15,9)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(10,13)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(16,6)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(2,12)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(14,14)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(3,17)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(8,19)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(1,20)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(16,19)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(11,17)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(1,3)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(5,9)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(13,10)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(15,15)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(6,6)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(7,3)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(7,1)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(7,15)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(11,6)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(10,9)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(12,3)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(16,7)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(10,14)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(2,13)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(6,10)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(14,13)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(6,11)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(8,18)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(3,16)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(11,18)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(2,1)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(1,4)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(15,16)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(5,8)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(6,5)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(11,7)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(13,16)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(6,3)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(13,1)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(12,4)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(8,20)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(16,8)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(10,19)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(16,13)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(2,14)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(3,19)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(12,12)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(1,10)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(6,16)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(1,1)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(9,12)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(5,7)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(5,12)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(6,4)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(6,2)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(12,5)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(2,15)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(11,20)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(13,15)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(11,8)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(13,2)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(16,14)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(16,9)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(3,18)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(14,19)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(1,11)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(12,11)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(6,17)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(1,2)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(9,11)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(4,9)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(5,13)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(15,10)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(5,6)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(2,16)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(5,4)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(12,6)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(11,9)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(6,1)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(7,18)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(13,3)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(16,15)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(10,17)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(14,18)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(1,12)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(6,14)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(12,10)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(9,9)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(9,10)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(4,8)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(5,5)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(5,10)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(13,14)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(15,11)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(5,3)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(13,4)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(14,1)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(12,7)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(2,17)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(7,19)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(16,16)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(4,20)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(10,18)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(1,13)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(14,17)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(6,15)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(9,8)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(4,7)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(5,11)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(13,13)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(15,12)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(4,5)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(14,2)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(13,5)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(2,18)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(5,2)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(11,11)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(12,8)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(9,17)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(8,12)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(14,20)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(12,16)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(4,11)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(8,13)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(5,16)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(9,7)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(3,9)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(1,14)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(4,6)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(4,4)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(5,1)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(11,12)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(13,6)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(9,16)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(2,19)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(13,19)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(14,3)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(8,11)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(12,9)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(4,10)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(12,15)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(16,10)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(10,20)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(9,6)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(5,17)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(8,9)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(1,15)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(3,8)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(7,20)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(3,6)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(15,1)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(2,9)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(4,3)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(13,18)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(13,7)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(14,4)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(9,15)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(4,13)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(8,10)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(12,14)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(16,11)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(6,18)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(9,5)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(5,14)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(8,8)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(1,16)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(3,7)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(11,10)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(3,5)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(4,2)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(13,17)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(14,5)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(9,14)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(15,2)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(13,8)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(16,12)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(4,12)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(12,13)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(6,19)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(8,7)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(9,13)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(3,20)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(5,15)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(10,1)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(1,17)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(15,20)" active="true" fct="default function" weight="1"/>
+      <entry name="pos(9,4)" active="true" fct="default function" weight="1"/>
+    </amalgam>
+  </concept>
+</model>
+<hierarchy>
+  <fct name="default function" type="Taxonomy" mt="PARTNER_QUERY" r="REUSE" t="MAX" qconfig="INNER_NODES_ANY" cconfig="INNER_NODES_ANY" top="inheritanceDesc" sim="0.0" symm="true" >
+    <node name="Characters" sim="1.0" parent="inheritanceDesc" />
+  </fct>
+</hierarchy>
+<cases no="1404" cb="CB_csvImport"/>
+</Project>
