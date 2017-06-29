@@ -2,6 +2,7 @@
 
 clc;
 clearvars;
+warning('off','all')
 
 filename = 'por.xls'; % nome do ficheiro
 data = readtable(filename); % abre o ficheiro
@@ -24,8 +25,14 @@ dlmwrite('por2.csv',entry,'Delimiter','','-append');
 
 entry = '';
 
+fprintf('[');
+
 %-------------Grava .csvS-----------%
 for i = 1 : length(part1) % percorre o vetor
+    
+    if 0 == mod(i,10)
+        fprintf('=');
+    end
     
     row1 = int2str(part1(i)); % define intervalo
     num = str2double(row1);
@@ -43,24 +50,27 @@ for i = 1 : length(part1) % percorre o vetor
         
         if isnumeric(entry)
             entry = num2str(entry);
-            %disp(entry);
         end
         
         if j==columns % divide notas de 1 a 4
             
             if str2double(entry) <= 4
                 entry = num2str(1);
+                strRow = strcat(strRow,entry,'');
             elseif str2double(entry) > 4 && str2double(entry) < 10
                 entry = num2str(2);
+                strRow = strcat(strRow,entry,'');
             elseif str2double(entry) >= 10 && str2double(entry) <= 15
                 entry = num2str(3);
+                strRow = strcat(strRow,entry,'');
             elseif str2double(entry) > 15
                 entry = num2str(4);
+                strRow = strcat(strRow,entry,'');
             end
-                
+           
+        else
+            strRow = strcat(strRow,entry,';');
         end
-        
-        strRow = strcat(strRow,entry,';');
         
     end
     
@@ -69,6 +79,10 @@ for i = 1 : length(part1) % percorre o vetor
 end
 
 for i = 1 : length(part2) % percorre o vetor
+    
+    if 0 == mod(i,10)
+        fprintf('=');
+    end
     
     row1 = int2str(part2(i)); % define intervalo
     num = str2double(row1);
@@ -93,25 +107,29 @@ for i = 1 : length(part2) % percorre o vetor
             
             if str2double(entry) <= 4
                 entry = num2str(1);
+                strRow = strcat(strRow,entry,'');
             elseif str2double(entry) > 4 && str2double(entry) < 10
                 entry = num2str(2);
+                strRow = strcat(strRow,entry,'');
             elseif str2double(entry) >= 10 && str2double(entry) <= 15
                 entry = num2str(3);
+                strRow = strcat(strRow,entry,'');
             elseif str2double(entry) > 15
                 entry = num2str(4);
+                strRow = strcat(strRow,entry,'');
             end
-                
+           
+        else
+            strRow = strcat(strRow,entry,';');
         end
-        
-        strRow = strcat(strRow,entry,';');
         
     end
     
     dlmwrite('por2.csv',strRow,'Delimiter','','-append'); 
     
 end 
-clc;
-disp('Task Complete!');
+fprintf(']');
+fprintf('\nTask Complete!\n');
  
 
 
