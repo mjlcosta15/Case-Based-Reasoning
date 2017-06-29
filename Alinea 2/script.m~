@@ -25,12 +25,19 @@ dlmwrite('por2.csv',entry,'Delimiter','','-append');
 
 entry = '';
 
-di
+fprintf('[');
+for i = 0:length(vec)
+    fprintf(' ')
+end
+fprintf(']')
+
 
 %-------------Grava .csvS-----------%
 for i = 1 : length(part1) % percorre o vetor
     
-    
+    if 0 == mod(i,10)
+        fprintf('=');
+    end
     
     row1 = int2str(part1(i)); % define intervalo
     num = str2double(row1);
@@ -78,6 +85,10 @@ end
 
 for i = 1 : length(part2) % percorre o vetor
     
+    if 0 == mod(i,10)
+        fprintf('=');
+    end
+    
     row1 = int2str(part2(i)); % define intervalo
     num = str2double(row1);
     row2 = int2str(num + 1);
@@ -122,8 +133,8 @@ for i = 1 : length(part2) % percorre o vetor
     dlmwrite('por2.csv',strRow,'Delimiter','','-append'); 
     
 end 
-clc;
-disp('Task Complete!');
+fprintf(']');
+fprintf('\nTask Complete!\n');
  
 
 
