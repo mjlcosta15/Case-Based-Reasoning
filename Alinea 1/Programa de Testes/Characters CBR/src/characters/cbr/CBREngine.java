@@ -16,11 +16,11 @@ public class CBREngine {
 	// set path to myCBR projects	
 	private static String data_path = "C:\\Repositories\\CR_TP\\Alinea 1\\";
 	// name of the project file
-	private static String projectName = "teste.prj"; 
+	private static String projectName = "CharactersCBR.prj"; 
 	// name of the central concept 
-	private static String conceptName = "Characters_CBR"; 
+	private static String conceptName = "Character"; 
 	// name of the csv containing the instances
-	private static String csv = "teste.csv"; 
+	private static String csv = "characters.csv"; 
 	// set the separators that are used in the csv file
 	private static String columnseparator = ";";
 	private static String multiplevalueseparator = "-";

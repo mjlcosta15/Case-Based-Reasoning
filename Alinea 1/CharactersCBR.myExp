@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Project name="CharactersCBR" author="" >
+<exp obj="CharactersCBR" type="Concept" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Character" type="Concept" >
+  <desc>
+  </desc>
+</exp>
+</Project>
