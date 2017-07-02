@@ -22,7 +22,7 @@ function varargout = Retrieve(varargin)
 
 % Edit the above text to modify the response to help Retrieve
 
-% Last Modified by GUIDE v2.5 01-Jul-2017 01:21:20
+% Last Modified by GUIDE v2.5 02-Jul-2017 17:11:03
 
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
@@ -73,22 +73,24 @@ function varargout = Retrieve_OutputFcn(hObject, eventdata, handles)
 varargout{1} = handles.output;
 
 
-% --- Executes on button press in radiobutton1.
-function radiobutton1_Callback(hObject, eventdata, handles)
-% hObject    handle to radiobutton1 (see GCBO)
+% --- Executes on button press in RBsexM.
+function RBsexM_Callback(hObject, eventdata, handles)
+% hObject    handle to RBsexM (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
-% Hint: get(hObject,'Value') returns toggle state of radiobutton1
 
 
-% --- Executes on button press in radiobutton2.
-function radiobutton2_Callback(hObject, eventdata, handles)
-% hObject    handle to radiobutton2 (see GCBO)
+% Hint: get(hObject,'Value') returns toggle state of RBsexM
+
+
+% --- Executes on button press in RBsexF.
+function RBsexF_Callback(hObject, eventdata, handles)
+% hObject    handle to RBsexF (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
-% Hint: get(hObject,'Value') returns toggle state of radiobutton2
+% Hint: get(hObject,'Value') returns toggle state of RBsexF
 
 
 
@@ -115,18 +117,18 @@ end
 
 
 
-function edit2_Callback(hObject, eventdata, handles)
-% hObject    handle to edit2 (see GCBO)
+function editAge_Callback(hObject, eventdata, handles)
+% hObject    handle to editAge (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
-% Hints: get(hObject,'String') returns contents of edit2 as text
-%        str2double(get(hObject,'String')) returns contents of edit2 as a double
+% Hints: get(hObject,'String') returns contents of editAge as text
+%        str2double(get(hObject,'String')) returns contents of editAge as a double
 
 
 % --- Executes during object creation, after setting all properties.
-function edit2_CreateFcn(hObject, eventdata, handles)
-% hObject    handle to edit2 (see GCBO)
+function editAge_CreateFcn(hObject, eventdata, handles)
+% hObject    handle to editAge (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    empty - handles not created until after all CreateFcns called
 
@@ -348,76 +350,76 @@ function radiobutton5_Callback(hObject, eventdata, handles)
 % Hint: get(hObject,'Value') returns toggle state of radiobutton5
 
 
-% --- Executes on button press in radiobutton6.
-function radiobutton6_Callback(hObject, eventdata, handles)
-% hObject    handle to radiobutton6 (see GCBO)
+% --- Executes on button press in RBschoolGP.
+function RBschoolGP_Callback(hObject, eventdata, handles)
+% hObject    handle to RBschoolGP (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
-% Hint: get(hObject,'Value') returns toggle state of radiobutton6
+% Hint: get(hObject,'Value') returns toggle state of RBschoolGP
 
 
-% --- Executes on button press in radiobutton7.
-function radiobutton7_Callback(hObject, eventdata, handles)
-% hObject    handle to radiobutton7 (see GCBO)
+% --- Executes on button press in RBschoolMS.
+function RBschoolMS_Callback(hObject, eventdata, handles)
+% hObject    handle to RBschoolMS (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
-% Hint: get(hObject,'Value') returns toggle state of radiobutton7
+% Hint: get(hObject,'Value') returns toggle state of RBschoolMS
 
 
-% --- Executes on button press in radiobutton8.
-function radiobutton8_Callback(hObject, eventdata, handles)
-% hObject    handle to radiobutton8 (see GCBO)
+% --- Executes on button press in RBaddressU.
+function RBaddressU_Callback(hObject, eventdata, handles)
+% hObject    handle to RBaddressU (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
-% Hint: get(hObject,'Value') returns toggle state of radiobutton8
+% Hint: get(hObject,'Value') returns toggle state of RBaddressU
 
 
-% --- Executes on button press in radiobutton9.
-function radiobutton9_Callback(hObject, eventdata, handles)
-% hObject    handle to radiobutton9 (see GCBO)
+% --- Executes on button press in RBaddressR.
+function RBaddressR_Callback(hObject, eventdata, handles)
+% hObject    handle to RBaddressR (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
-% Hint: get(hObject,'Value') returns toggle state of radiobutton9
+% Hint: get(hObject,'Value') returns toggle state of RBaddressR
 
 
-% --- Executes on button press in radiobutton10.
-function radiobutton10_Callback(hObject, eventdata, handles)
-% hObject    handle to radiobutton10 (see GCBO)
+% --- Executes on button press in RBfamsizeGT3.
+function RBfamsizeGT3_Callback(hObject, eventdata, handles)
+% hObject    handle to RBfamsizeGT3 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
-% Hint: get(hObject,'Value') returns toggle state of radiobutton10
+% Hint: get(hObject,'Value') returns toggle state of RBfamsizeGT3
 
 
-% --- Executes on button press in radiobutton11.
-function radiobutton11_Callback(hObject, eventdata, handles)
-% hObject    handle to radiobutton11 (see GCBO)
+% --- Executes on button press in RBfamsizeLE3.
+function RBfamsizeLE3_Callback(hObject, eventdata, handles)
+% hObject    handle to RBfamsizeLE3 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
-% Hint: get(hObject,'Value') returns toggle state of radiobutton11
+% Hint: get(hObject,'Value') returns toggle state of RBfamsizeLE3
 
 
-% --- Executes on button press in radiobutton12.
-function radiobutton12_Callback(hObject, eventdata, handles)
-% hObject    handle to radiobutton12 (see GCBO)
+% --- Executes on button press in RBstatusA.
+function RBstatusA_Callback(hObject, eventdata, handles)
+% hObject    handle to RBstatusA (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
-% Hint: get(hObject,'Value') returns toggle state of radiobutton12
+% Hint: get(hObject,'Value') returns toggle state of RBstatusA
 
 
-% --- Executes on button press in radiobutton13.
-function radiobutton13_Callback(hObject, eventdata, handles)
-% hObject    handle to radiobutton13 (see GCBO)
+% --- Executes on button press in RBstatusT.
+function RBstatusT_Callback(hObject, eventdata, handles)
+% hObject    handle to RBstatusT (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
-% Hint: get(hObject,'Value') returns toggle state of radiobutton13
+% Hint: get(hObject,'Value') returns toggle state of RBstatusT
 
 
 % --- Executes on button press in radiobutton14.
@@ -655,19 +657,19 @@ if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgr
 end
 
 
-% --- Executes on selection change in popupmenu5.
-function popupmenu5_Callback(hObject, eventdata, handles)
-% hObject    handle to popupmenu5 (see GCBO)
+% --- Executes on selection change in popMjob.
+function popMjob_Callback(hObject, eventdata, handles)
+% hObject    handle to popMjob (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
-% Hints: contents = cellstr(get(hObject,'String')) returns popupmenu5 contents as cell array
-%        contents{get(hObject,'Value')} returns selected item from popupmenu5
+% Hints: contents = cellstr(get(hObject,'String')) returns popMjob contents as cell array
+%        contents{get(hObject,'Value')} returns selected item from popMjob
 
 
 % --- Executes during object creation, after setting all properties.
-function popupmenu5_CreateFcn(hObject, eventdata, handles)
-% hObject    handle to popupmenu5 (see GCBO)
+function popMjob_CreateFcn(hObject, eventdata, handles)
+% hObject    handle to popMjob (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    empty - handles not created until after all CreateFcns called
 
@@ -678,19 +680,19 @@ if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgr
 end
 
 
-% --- Executes on selection change in popupmenu6.
-function popupmenu6_Callback(hObject, eventdata, handles)
-% hObject    handle to popupmenu6 (see GCBO)
+% --- Executes on selection change in popFjob.
+function popFjob_Callback(hObject, eventdata, handles)
+% hObject    handle to popFjob (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
-% Hints: contents = cellstr(get(hObject,'String')) returns popupmenu6 contents as cell array
-%        contents{get(hObject,'Value')} returns selected item from popupmenu6
+% Hints: contents = cellstr(get(hObject,'String')) returns popFjob contents as cell array
+%        contents{get(hObject,'Value')} returns selected item from popFjob
 
 
 % --- Executes during object creation, after setting all properties.
-function popupmenu6_CreateFcn(hObject, eventdata, handles)
-% hObject    handle to popupmenu6 (see GCBO)
+function popFjob_CreateFcn(hObject, eventdata, handles)
+% hObject    handle to popFjob (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    empty - handles not created until after all CreateFcns called
 
@@ -701,19 +703,19 @@ if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgr
 end
 
 
-% --- Executes on selection change in popupmenu7.
-function popupmenu7_Callback(hObject, eventdata, handles)
-% hObject    handle to popupmenu7 (see GCBO)
+% --- Executes on selection change in popReason.
+function popReason_Callback(hObject, eventdata, handles)
+% hObject    handle to popReason (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
-% Hints: contents = cellstr(get(hObject,'String')) returns popupmenu7 contents as cell array
-%        contents{get(hObject,'Value')} returns selected item from popupmenu7
+% Hints: contents = cellstr(get(hObject,'String')) returns popReason contents as cell array
+%        contents{get(hObject,'Value')} returns selected item from popReason
 
 
 % --- Executes during object creation, after setting all properties.
-function popupmenu7_CreateFcn(hObject, eventdata, handles)
-% hObject    handle to popupmenu7 (see GCBO)
+function popReason_CreateFcn(hObject, eventdata, handles)
+% hObject    handle to popReason (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    empty - handles not created until after all CreateFcns called
 
@@ -725,18 +727,18 @@ end
 
 
 
-function edit11_Callback(hObject, eventdata, handles)
-% hObject    handle to edit11 (see GCBO)
+function editTtime_Callback(hObject, eventdata, handles)
+% hObject    handle to editTtime (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
-% Hints: get(hObject,'String') returns contents of edit11 as text
-%        str2double(get(hObject,'String')) returns contents of edit11 as a double
+% Hints: get(hObject,'String') returns contents of editTtime as text
+%        str2double(get(hObject,'String')) returns contents of editTtime as a double
 
 
 % --- Executes during object creation, after setting all properties.
-function edit11_CreateFcn(hObject, eventdata, handles)
-% hObject    handle to edit11 (see GCBO)
+function editTtime_CreateFcn(hObject, eventdata, handles)
+% hObject    handle to editTtime (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    empty - handles not created until after all CreateFcns called
 
@@ -748,18 +750,18 @@ end
 
 
 
-function edit12_Callback(hObject, eventdata, handles)
-% hObject    handle to edit12 (see GCBO)
+function editStime_Callback(hObject, eventdata, handles)
+% hObject    handle to editStime (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
-% Hints: get(hObject,'String') returns contents of edit12 as text
-%        str2double(get(hObject,'String')) returns contents of edit12 as a double
+% Hints: get(hObject,'String') returns contents of editStime as text
+%        str2double(get(hObject,'String')) returns contents of editStime as a double
 
 
 % --- Executes during object creation, after setting all properties.
-function edit12_CreateFcn(hObject, eventdata, handles)
-% hObject    handle to edit12 (see GCBO)
+function editStime_CreateFcn(hObject, eventdata, handles)
+% hObject    handle to editStime (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    empty - handles not created until after all CreateFcns called
 
@@ -771,18 +773,18 @@ end
 
 
 
-function edit13_Callback(hObject, eventdata, handles)
-% hObject    handle to edit13 (see GCBO)
+function editFailures_Callback(hObject, eventdata, handles)
+% hObject    handle to editFailures (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
-% Hints: get(hObject,'String') returns contents of edit13 as text
-%        str2double(get(hObject,'String')) returns contents of edit13 as a double
+% Hints: get(hObject,'String') returns contents of editFailures as text
+%        str2double(get(hObject,'String')) returns contents of editFailures as a double
 
 
 % --- Executes during object creation, after setting all properties.
-function edit13_CreateFcn(hObject, eventdata, handles)
-% hObject    handle to edit13 (see GCBO)
+function editFailures_CreateFcn(hObject, eventdata, handles)
+% hObject    handle to editFailures (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    empty - handles not created until after all CreateFcns called
 
@@ -938,18 +940,18 @@ function radiobutton50_Callback(hObject, eventdata, handles)
 
 
 
-function edit14_Callback(hObject, eventdata, handles)
-% hObject    handle to edit14 (see GCBO)
+function editFamrel_Callback(hObject, eventdata, handles)
+% hObject    handle to editFamrel (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
-% Hints: get(hObject,'String') returns contents of edit14 as text
-%        str2double(get(hObject,'String')) returns contents of edit14 as a double
+% Hints: get(hObject,'String') returns contents of editFamrel as text
+%        str2double(get(hObject,'String')) returns contents of editFamrel as a double
 
 
 % --- Executes during object creation, after setting all properties.
-function edit14_CreateFcn(hObject, eventdata, handles)
-% hObject    handle to edit14 (see GCBO)
+function editFamrel_CreateFcn(hObject, eventdata, handles)
+% hObject    handle to editFamrel (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    empty - handles not created until after all CreateFcns called
 
@@ -961,18 +963,18 @@ end
 
 
 
-function edit15_Callback(hObject, eventdata, handles)
-% hObject    handle to edit15 (see GCBO)
+function editFreetime_Callback(hObject, eventdata, handles)
+% hObject    handle to editFreetime (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
-% Hints: get(hObject,'String') returns contents of edit15 as text
-%        str2double(get(hObject,'String')) returns contents of edit15 as a double
+% Hints: get(hObject,'String') returns contents of editFreetime as text
+%        str2double(get(hObject,'String')) returns contents of editFreetime as a double
 
 
 % --- Executes during object creation, after setting all properties.
-function edit15_CreateFcn(hObject, eventdata, handles)
-% hObject    handle to edit15 (see GCBO)
+function editFreetime_CreateFcn(hObject, eventdata, handles)
+% hObject    handle to editFreetime (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    empty - handles not created until after all CreateFcns called
 
@@ -984,18 +986,18 @@ end
 
 
 
-function edit16_Callback(hObject, eventdata, handles)
-% hObject    handle to edit16 (see GCBO)
+function editGoout_Callback(hObject, eventdata, handles)
+% hObject    handle to editGoout (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
-% Hints: get(hObject,'String') returns contents of edit16 as text
-%        str2double(get(hObject,'String')) returns contents of edit16 as a double
+% Hints: get(hObject,'String') returns contents of editGoout as text
+%        str2double(get(hObject,'String')) returns contents of editGoout as a double
 
 
 % --- Executes during object creation, after setting all properties.
-function edit16_CreateFcn(hObject, eventdata, handles)
-% hObject    handle to edit16 (see GCBO)
+function editGoout_CreateFcn(hObject, eventdata, handles)
+% hObject    handle to editGoout (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    empty - handles not created until after all CreateFcns called
 
@@ -1007,18 +1009,18 @@ end
 
 
 
-function edit17_Callback(hObject, eventdata, handles)
-% hObject    handle to edit17 (see GCBO)
+function editDalc_Callback(hObject, eventdata, handles)
+% hObject    handle to editDalc (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
-% Hints: get(hObject,'String') returns contents of edit17 as text
-%        str2double(get(hObject,'String')) returns contents of edit17 as a double
+% Hints: get(hObject,'String') returns contents of editDalc as text
+%        str2double(get(hObject,'String')) returns contents of editDalc as a double
 
 
 % --- Executes during object creation, after setting all properties.
-function edit17_CreateFcn(hObject, eventdata, handles)
-% hObject    handle to edit17 (see GCBO)
+function editDalc_CreateFcn(hObject, eventdata, handles)
+% hObject    handle to editDalc (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    empty - handles not created until after all CreateFcns called
 
@@ -1030,18 +1032,18 @@ end
 
 
 
-function edit18_Callback(hObject, eventdata, handles)
-% hObject    handle to edit18 (see GCBO)
+function editWalc_Callback(hObject, eventdata, handles)
+% hObject    handle to editWalc (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
-% Hints: get(hObject,'String') returns contents of edit18 as text
-%        str2double(get(hObject,'String')) returns contents of edit18 as a double
+% Hints: get(hObject,'String') returns contents of editWalc as text
+%        str2double(get(hObject,'String')) returns contents of editWalc as a double
 
 
 % --- Executes during object creation, after setting all properties.
-function edit18_CreateFcn(hObject, eventdata, handles)
-% hObject    handle to edit18 (see GCBO)
+function editWalc_CreateFcn(hObject, eventdata, handles)
+% hObject    handle to editWalc (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    empty - handles not created until after all CreateFcns called
 
@@ -1053,18 +1055,18 @@ end
 
 
 
-function edit19_Callback(hObject, eventdata, handles)
-% hObject    handle to edit19 (see GCBO)
+function editHealth_Callback(hObject, eventdata, handles)
+% hObject    handle to editHealth (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
-% Hints: get(hObject,'String') returns contents of edit19 as text
-%        str2double(get(hObject,'String')) returns contents of edit19 as a double
+% Hints: get(hObject,'String') returns contents of editHealth as text
+%        str2double(get(hObject,'String')) returns contents of editHealth as a double
 
 
 % --- Executes during object creation, after setting all properties.
-function edit19_CreateFcn(hObject, eventdata, handles)
-% hObject    handle to edit19 (see GCBO)
+function editHealth_CreateFcn(hObject, eventdata, handles)
+% hObject    handle to editHealth (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    empty - handles not created until after all CreateFcns called
 
@@ -1076,18 +1078,18 @@ end
 
 
 
-function edit20_Callback(hObject, eventdata, handles)
-% hObject    handle to edit20 (see GCBO)
+function editAbsences_Callback(hObject, eventdata, handles)
+% hObject    handle to editAbsences (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
-% Hints: get(hObject,'String') returns contents of edit20 as text
-%        str2double(get(hObject,'String')) returns contents of edit20 as a double
+% Hints: get(hObject,'String') returns contents of editAbsences as text
+%        str2double(get(hObject,'String')) returns contents of editAbsences as a double
 
 
 % --- Executes during object creation, after setting all properties.
-function edit20_CreateFcn(hObject, eventdata, handles)
-% hObject    handle to edit20 (see GCBO)
+function editAbsences_CreateFcn(hObject, eventdata, handles)
+% hObject    handle to editAbsences (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    empty - handles not created until after all CreateFcns called
 
@@ -1099,18 +1101,18 @@ end
 
 
 
-function edit21_Callback(hObject, eventdata, handles)
-% hObject    handle to edit21 (see GCBO)
+function editG1_Callback(hObject, eventdata, handles)
+% hObject    handle to editG1 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
-% Hints: get(hObject,'String') returns contents of edit21 as text
-%        str2double(get(hObject,'String')) returns contents of edit21 as a double
+% Hints: get(hObject,'String') returns contents of editG1 as text
+%        str2double(get(hObject,'String')) returns contents of editG1 as a double
 
 
 % --- Executes during object creation, after setting all properties.
-function edit21_CreateFcn(hObject, eventdata, handles)
-% hObject    handle to edit21 (see GCBO)
+function editG1_CreateFcn(hObject, eventdata, handles)
+% hObject    handle to editG1 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    empty - handles not created until after all CreateFcns called
 
@@ -1122,18 +1124,18 @@ end
 
 
 
-function edit22_Callback(hObject, eventdata, handles)
-% hObject    handle to edit22 (see GCBO)
+function editG2_Callback(hObject, eventdata, handles)
+% hObject    handle to editG2 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
-% Hints: get(hObject,'String') returns contents of edit22 as text
-%        str2double(get(hObject,'String')) returns contents of edit22 as a double
+% Hints: get(hObject,'String') returns contents of editG2 as text
+%        str2double(get(hObject,'String')) returns contents of editG2 as a double
 
 
 % --- Executes during object creation, after setting all properties.
-function edit22_CreateFcn(hObject, eventdata, handles)
-% hObject    handle to edit22 (see GCBO)
+function editG2_CreateFcn(hObject, eventdata, handles)
+% hObject    handle to editG2 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    empty - handles not created until after all CreateFcns called
 
@@ -1145,18 +1147,18 @@ end
 
 
 
-function edit23_Callback(hObject, eventdata, handles)
-% hObject    handle to edit23 (see GCBO)
+function editG3_Callback(hObject, eventdata, handles)
+% hObject    handle to editG3 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
-% Hints: get(hObject,'String') returns contents of edit23 as text
-%        str2double(get(hObject,'String')) returns contents of edit23 as a double
+% Hints: get(hObject,'String') returns contents of editG3 as text
+%        str2double(get(hObject,'String')) returns contents of editG3 as a double
 
 
 % --- Executes during object creation, after setting all properties.
-function edit23_CreateFcn(hObject, eventdata, handles)
-% hObject    handle to edit23 (see GCBO)
+function editG3_CreateFcn(hObject, eventdata, handles)
+% hObject    handle to editG3 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    empty - handles not created until after all CreateFcns called
 
@@ -1167,26 +1169,183 @@ if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgr
 end
 
 
-% --- Executes on button press in pushbutton1.
-function pushbutton1_Callback(hObject, eventdata, handles)
-% hObject    handle to pushbutton1 (see GCBO)
+% --- Executes on button press in search.
+function search_Callback(hObject, eventdata, handles)
+% hObject    handle to search (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
+% Radio Button School
+test = get(handles.panelSchool,'SelectedObject');
+school = get(test,'String');
+
+% Radio Button Sex
+test = get(handles.panelSex,'SelectedObject');
+sex = get(test,'String');
+
+% Edit Text Age
+age = get(handles.editAge,'String');
+
+% Radio Button Address
+test = get(handles.panelAddress,'SelectedObject');
+address = get(test,'String');
+
+% Radio Button Family Size
+test = get(handles.panelFamSize,'SelectedObject');
+famsize = get(test,'String');
+
+% Radio Button P Status
+test = get(handles.panelPStatus,'SelectedObject');
+pstatus = get(test,'String');
+
+% Edit Text Mother Education
+meducation = get(handles.editMedu,'String');
+
+% Edit Text Father Education
+feducation = get(handles.editFedu,'String');
+
+% Pop-Up Menu Mother Job
+allItems = get(handles.popMjob,'string')
+selectedIndex = get(handles.popMjob,'Value')
+mjob = allItems{selectedIndex};
+
+% Pop-Up Menu Father Job
+allItems = get(handles.popFjob,'string')
+selectedIndex = get(handles.popFjob,'Value')
+fjob = allItems{selectedIndex};
 
 
-function edit24_Callback(hObject, eventdata, handles)
-% hObject    handle to edit24 (see GCBO)
+% Pop-Up Menu Reason
+allItems = get(handles.popReason,'string')
+selectedIndex = get(handles.popReason,'Value')
+reason = allItems{selectedIndex};
+
+% Radio Button Guardian
+test = get(handles.panelGuardian,'SelectedObject');
+guardian = get(test,'String');
+
+% Edit Text Travel Time
+ttime = get(handles.editTtime,'String');
+
+% Edit Text Study Time
+studytime = get(handles.editStime,'String');
+
+% Edit Text Failures
+failures = get(handles.editFailures,'String');
+
+% Radio Button School Support
+test = get(handles.panelSsupport,'SelectedObject');
+schoolsupport = get(test,'String');
+
+% Radio Button Family Support
+test = get(handles.panelFsupport,'SelectedObject');
+famsupport = get(test,'String');
+
+% Radio Button Paid
+test = get(handles.panelPaid,'SelectedObject');
+paid = get(test,'String');
+
+% Radio Button Activities
+test = get(handles.panelActivities,'SelectedObject');
+activities = get(test,'String');
+
+% Radio Button Nursery
+test = get(handles.panelNursery,'SelectedObject');
+nursery = get(test,'String');
+
+% Radio Button Higher
+test = get(handles.panelHigher,'SelectedObject');
+higher = get(test,'String');
+
+% Radio Button Internet
+test = get(handles.panelInternet,'SelectedObject');
+internet = get(test,'String');
+
+% Radio Button Romantic
+test = get(handles.panelRomantic,'SelectedObject');
+romantic = get(test,'String');
+
+% Edit Text Fam Rel
+famrel = get(handles.editFamrel,'String');
+
+% Edit Text Free Time
+freetime = get(handles.editFreetime,'String');
+
+% Edit Text Go Out
+goout = get(handles.editGoout,'String');
+
+% Edit Text Dalc
+dalc = get(handles.editDalc,'String');
+
+% Edit Text Walc
+walc = get(handles.editWalc,'String');
+
+% Edit Text Health
+health = get(handles.editHealth,'String');
+
+% Edit Text Absences
+absences = get(handles.editAbsences,'String');
+
+% Edit Text G1
+g1 = get(handles.editG1,'String');
+
+% Edit Text G2
+g2 = get(handles.editG2,'String');
+
+% Edit Text G3
+g3 = get(handles.editG3,'String');
+
+clc
+
+disp(school);
+disp(sex);
+disp(age);
+disp(address);
+disp(famsize);
+disp(pstatus);
+disp(meducation);
+disp(feducation);
+disp(mjob);
+disp(fjob);
+disp(reason);
+disp(guardian);
+disp(ttime);
+disp(studytime);
+disp(failures);
+disp(schoolsupport);
+disp(famsupport);
+disp(paid);
+disp(activities);
+disp(nursery);
+disp(higher);
+disp(internet);
+disp(romantic);
+disp(famrel);
+disp(freetime);
+disp(goout);
+disp(dalc);
+disp(walc);
+disp(health);
+disp(absences);
+disp(g1);
+disp(g2);
+disp(g3);
+
+
+
+
+function editMedu_Callback(hObject, eventdata, handles)
+% hObject    handle to editMedu (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
-% Hints: get(hObject,'String') returns contents of edit24 as text
-%        str2double(get(hObject,'String')) returns contents of edit24 as a double
+% Hints: get(hObject,'String') returns contents of editMedu as text
+%        str2double(get(hObject,'String')) returns contents of editMedu as a double
 
 
 % --- Executes during object creation, after setting all properties.
-function edit24_CreateFcn(hObject, eventdata, handles)
-% hObject    handle to edit24 (see GCBO)
+function editMedu_CreateFcn(hObject, eventdata, handles)
+% hObject    handle to editMedu (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    empty - handles not created until after all CreateFcns called
 
@@ -1198,18 +1357,18 @@ end
 
 
 
-function edit25_Callback(hObject, eventdata, handles)
-% hObject    handle to edit25 (see GCBO)
+function editFedu_Callback(hObject, eventdata, handles)
+% hObject    handle to editFedu (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
-% Hints: get(hObject,'String') returns contents of edit25 as text
-%        str2double(get(hObject,'String')) returns contents of edit25 as a double
+% Hints: get(hObject,'String') returns contents of editFedu as text
+%        str2double(get(hObject,'String')) returns contents of editFedu as a double
 
 
 % --- Executes during object creation, after setting all properties.
-function edit25_CreateFcn(hObject, eventdata, handles)
-% hObject    handle to edit25 (see GCBO)
+function editFedu_CreateFcn(hObject, eventdata, handles)
+% hObject    handle to editFedu (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    empty - handles not created until after all CreateFcns called
 
