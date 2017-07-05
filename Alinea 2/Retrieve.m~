@@ -1341,7 +1341,7 @@ g3 = get(handles.editG3,'String');
 [rows, columns] = size(table);
 
 vec = zeros(1,33,'uint32');
-mat = zeros(649,33,'uint32');
+mat = 
 
 
 for i=1 : rows
@@ -1588,7 +1588,7 @@ for i=1 : rows
                   
         end
     end
-    vec = vec*(1/649);
+    
     disp(vec);
 end
 
