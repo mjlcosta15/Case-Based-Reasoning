@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Project name="CharactersCBR" author="" >
+<exp obj="Character" type="Concept" >
+  <desc>
+&#10;    </desc>
+</exp>
+<exp obj="pos(10,14)" c="Character" type="AttributeDesc" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="caracter" c="Character" type="AttributeDesc" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="pos(1,1)" c="Character" type="AttributeDesc" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="pos(10,15)" c="Character" type="AttributeDesc" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="Character100" c="Character" type="Instance" >
+  <desc>
+  </desc>
+</exp>
+</Project>
