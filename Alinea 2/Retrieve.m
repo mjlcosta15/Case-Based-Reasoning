@@ -1180,8 +1180,6 @@ clc;
 
 table = readtable('por1.csv');
 
-total_pond = 0.0;
-
 school_pond = 1.0;
 sex_pond = 1.0;
 age_pond = 1.0;
@@ -1216,6 +1214,7 @@ g1_pond = 1.0;
 g2_pond = 1.0;
 g3_pond = 1.0;
 
+total_pond = school_pond + sex_pond + age_pond + address_pond +famsize_pond + pstatus_pond + medu_pond + fedu_pond + mjob_pond + fjob_pond + reason_pond + guardian_pond + traveltime_pond + studytime_pond + failures_pond + schoolsup_pond + famsup_pond + paid_pond + activities_pond + nursery_pond + higher_pond + internet_pond + romantic_pond + famrel_pond + freetime_pond + goout_pond + dalc_pond + walc_pond + health_pond + absences_pond + g1_pond + g2_pond + g3_pond;
 
 % Radio Button School
 test = get(handles.panelSchool,'SelectedObject');
@@ -1341,9 +1340,7 @@ g3 = get(handles.editG3,'String');
 [rows, columns] = size(table);
 
 vec = zeros(1,33,'uint32');
-mat = zeros(649,33,'uint32');
-
-soma = zeros(1,649,'uint32');
+rank = zeros(1,649,'double');
 
 
 for i=1 : rows
@@ -1355,247 +1352,200 @@ for i=1 : rows
             case 1 %school
                 cmp = strcmp(cell{i,j},school);
                 if cmp == true
-                    %distanciaLinearpart1(1,1,school_pond);
-                    res = abs(1*school_pond - 1*school_pond);
-                    vec(j) = res;       
+                    vec(j) = 1*school_pond;      
                 elseif cmp == false
-                    %distanciaLinearpart1(0,0,school_pond);
-                    res = abs(0*school_pond - 0*school_pond);
-                    vec(j) = res;   
+                    vec(j) = 0*school_pond;  
                 end
                 
             case 2 %sex
                 cmp = strcmp(cell{i,j},sex);
                 if cmp == true          
-                    res = abs(1*sex_pond - 1*sex_pond);
-                    vec(j) = res;         
+                    vec(j) = 1*sex_pond;         
                 elseif cmp == false
-                    res = abs(0*sex_pond - 0*sex_pond);
-                    vec(j) = res;         
+                    vec(j) = 0*sex_pond;      
                 end
                
             case 3 % age
-                  subtracao = str2double(age) - str2double(cell{i,j});
-                  subtracao = subtracao * age_pond;
-                  res = abs(subtracao);
-                  vec(j) = res;
+                  vec(j) = ( str2double(age) - str2double(cell{i,j}) )* age_pond;
        
             case 4 % address
                  cmp = strcmp(cell{i,j},address);
                 if cmp == true
-                    res = abs(1*address_pond - 1*address_pond);
-                    vec(j) = res;   
+                    vec(j) = 1*address_pond;      
                 elseif cmp == false
-                    res = abs(0*address_pond - 0*address_pond);
-                    vec(j) = res;   
+                    vec(j) = 0*address_pond;  
                 end
      
             case 5 % famsize
-                cmp = strcmp(cell{i,j},famsize);
+               cmp = strcmp(cell{i,j},famsize);
                 if cmp == true
-                    res = abs(1*famsize_pond - 1*famsize_pond);
-                    vec(j) = res;   
+                    vec(j) = 1*famsize_pond;      
                 elseif cmp == false
-                    res = abs(0*famsize_pond - 0*famsize_pond);
-                    vec(j) = res;   
+                    vec(j) = 0*famsize_pond;  
                 end
         
             case 6 % pstatus
                 cmp = strcmp(cell{i,j},pstatus);
                 if cmp == true
-                    res = abs(1*pstatus_pond - 1*pstatus_pond);
-                    vec(j) = res;   
+                    vec(j) = 1*pstatus_pond;      
                 elseif cmp == false
-                    res = abs(0*pstatus_pond - 0*pstatus_pond);
-                    vec(j) = res;   
+                    vec(j) = 0*pstatus_pond;  
                 end
        
             case 7 % medu
-                res = abs(str2double(medu)*medu_pond - cell{i,j}*medu_pond);
-                  vec(j) = res;
+                vec(j) = ( str2double(medu) - str2double(cell{i,j}) )* medu_pond;
          
             case 8 % fedu
-                res = abs(str2double(fedu)*fedu_pond - cell{i,j}*fedu_pond);
-                  vec(j) = res;
+                vec(j) = ( str2double(fedu) - str2double(cell{i,j}) )* fedu_pond;
 
             case 9 % mjob
                 cmp = strcmp(cell{i,j},mjob);
                 if cmp == true
-                    res = abs(1*mjob_pond - 1*mjob_pond);
-                    vec(j) = res;   
+                    vec(j) = 1*mjob_pond;      
                 elseif cmp == false
-                    res = abs(0*mjob_pond - 0*mjob_pond);
-                    vec(j) = res;   
+                    vec(j) = 0*mjob_pond;  
                 end
         
             case 10 % fjob
                 cmp = strcmp(cell{i,j},fjob);
                 if cmp == true
-                    res = abs(1*fjob_pond - 1*fjob_pond);
-                    vec(j) = res;   
+                    vec(j) = 1*fjob_pond;      
                 elseif cmp == false
-                    res = abs(0*fjob_pond - 0*fjob_pond);
-                    vec(j) = res;   
+                    vec(j) = 0*fjob_pond;  
                 end
      
             case 11 % reason
                 cmp = strcmp(cell{i,j},reason);
                 if cmp == true
-                    res = abs(1*reason_pond - 1*reason_pond);
-                    vec(j) = res;   
+                    vec(j) = 1*reason_pond;      
                 elseif cmp == false
-                    res = abs(0*reason_pond - 0*reason_pond);
-                    vec(j) = res;   
+                    vec(j) = 0*reason_pond;  
                 end
                 
             case 12 % guardian
                 cmp = strcmp(cell{i,j},guardian);
                 if cmp == true
-                    res = abs(1*guardian_pond - 1*guardian_pond);
-                    vec(j) = res;   
+                    vec(j) = 1*guardian_pond;      
                 elseif cmp == false
-                    res = abs(0*guardian_pond - 0*guardian_pond);
-                    vec(j) = res;
+                    vec(j) = 0*guardian_pond;  
                 end
                 
             case 13 % traveltime
-                res = abs(str2double(traveltime)*traveltime_pond - cell{i,j}*traveltime_pond);
-                  vec(j) = res;
+                vec(j) = ( str2double(traveltime) - str2double(cell{i,j}) )* traveltime_pond;
                 
             case 14 % studytime
-                res = abs(str2double(studytime)*studytime_pond - cell{i,j}*studytime_pond);
-                  vec(j) = res;
+                vec(j) = ( str2double(studytime) - str2double(cell{i,j}) )* studytime_pond;
                   
             case 15 % failures
-                res = abs(str2double(failures)*failures_pond - cell{i,j}*failures_pond);
-                  vec(j) = res;
+                vec(j) = ( str2double(failures) - str2double(cell{i,j}) )* failures_pond;
                   
             case 16 % schoolsup
                 cmp = strcmp(cell{i,j},schoolsup);
                 if cmp == true
-                    res = abs(1*schoolsup_pond - 1*schoolsup_pond);
-                    vec(j) = res;   
+                    vec(j) = 1*schoolsup_pond;      
                 elseif cmp == false
-                    res = abs(0*schoolsup_pond - 0*schoolsup_pond);
-                    vec(j) = res;
+                    vec(j) = 0*schoolsup_pond;  
                 end
                 
             case 17 % famsup
                 cmp = strcmp(cell{i,j},famsup);
                 if cmp == true
-                    res = abs(1*famsup_pond - 1*famsup_pond);
-                    vec(j) = res;   
+                    vec(j) = 1*famsup_pond;      
                 elseif cmp == false
-                    res = abs(0*famsup_pond - 0*famsup_pond);
-                    vec(j) = res;
+                    vec(j) = 0*famsup_pond;  
                 end
                 
             case 18 % paid
                 cmp = strcmp(cell{i,j},paid);
                 if cmp == true
-                    res = abs(1*paid_pond - 1*paid_pond);
-                    vec(j) = res;   
+                    vec(j) = 1*paid_pond;      
                 elseif cmp == false
-                    res = abs(0*paid_pond - 0*paid_pond);
-                    vec(j) = res;
+                    vec(j) = 0*paid_pond;  
                 end
                 
             case 19 % activities
                 cmp = strcmp(cell{i,j},activities);
                 if cmp == true
-                    res = abs(1*activities_pond - 1*activities_pond);
-                    vec(j) = res;   
+                    vec(j) = 1*activities_pond;      
                 elseif cmp == false
-                    res = abs(0*activities_pond - 0*activities_pond);
-                    vec(j) = res;
+                    vec(j) = 0*activities_pond;  
                 end
                 
             case 20 % nursery
                 cmp = strcmp(cell{i,j},nursery);
                 if cmp == true
-                    res = abs(1*nursery_pond - 1*nursery_pond);
-                    vec(j) = res;   
+                    vec(j) = 1*nursery_pond;      
                 elseif cmp == false
-                    res = abs(0*nursery_pond - 0*nursery_pond);
-                    vec(j) = res;
+                    vec(j) = 0*nursery_pond;  
                 end
                 
             case 21 % higher
-                cmp = strcmp(cell{i,j},higher);
+                 cmp = strcmp(cell{i,j},higher);
                 if cmp == true
-                    res = abs(1*higher_pond - 1*higher_pond);
-                    vec(j) = res;   
+                    vec(j) = 1*higher_pond;      
                 elseif cmp == false
-                    res = abs(0*higher_pond - 0*higher_pond);
-                    vec(j) = res;
+                    vec(j) = 0*higher_pond;  
                 end
                 
             case 22 % internet
                 cmp = strcmp(cell{i,j},internet);
                 if cmp == true
-                    res = abs(1*internet_pond - 1*internet_pond);
-                    vec(j) = res;   
+                    vec(j) = 1*internet_pond;      
                 elseif cmp == false
-                    res = abs(0*internet_pond - 0*internet_pond);
-                    vec(j) = res;
+                    vec(j) = 0*internet_pond;  
                 end
                 
             case 23 % romantic
                 cmp = strcmp(cell{i,j},romantic);
                 if cmp == true
-                    res = abs(1*romantic_pond - 1*romantic_pond);
-                    vec(j) = res;   
+                    vec(j) = 1*romantic_pond;      
                 elseif cmp == false
-                    res = abs(0*romantic_pond - 0*romantic_pond);
-                    vec(j) = res;
+                    vec(j) = 0*romantic_pond;  
                 end
                 
             case 24 % famrel
-                res = abs(str2double(famrel) - str2double(cell{i,j}))*famrel_pond;
-                  vec(j) = res;
+                vec(j) = ( str2double(famrel) - str2double(cell{i,j}) )* famrel_pond;
                   
             case 25 % freetime
-                res = abs(str2double(freetime) - str2double(cell{i,j}))*freetime_pond;
-                  vec(j) = res;
+                vec(j) = ( str2double(freetime) - str2double(cell{i,j}) )* freetime_pond;
                   
             case 26 % goout
-                res = abs(str2double(goout) - str2double(cell{i,j}))*goout_pond;
-                  vec(j) = res;
+                vec(j) = ( str2double(goout) - str2double(cell{i,j}) )* goout_pond;
                   
             case 27 % dalc
-                res = abs(str2double(dalc) - str2double(cell{i,j}))*dalc_pond;
-                  vec(j) = res;
+                vec(j) = ( str2double(dalc) - str2double(cell{i,j}) )* dalc_pond;
                   
             case 28 % walc
-                res = abs(str2double(walc) - str2double(cell{i,j}))*walc_pond;
-                  vec(j) = res;
+                vec(j) = ( str2double(walc) - str2double(cell{i,j}) )* walc_pond;
                   
             case 29 % health
-                res = abs(str2double(health) - str2double(cell{i,j}))*health_pond;
-                  vec(j) = res;
+                vec(j) = ( str2double(health) - str2double(cell{i,j}) )* health_pond;
                   
             case 30 % absences
-                res = abs(str2double(absences) - str2double(cell{i,j}))*absences_pond;
-                  vec(j) = res;
+                vec(j) = ( str2double(absences) - str2double(cell{i,j}) )* absences_pond;
                   
             case 31 % g1
-                res = abs(str2double(g1) - str2double(cell{i,j}))*g1_pond;
-                  vec(j) = res;
+                vec(j) = ( str2double(g1) - str2double(cell{i,j}) )* g1_pond;
                   
             case 32 %g2
-                res = abs(str2double(g2) - str2double(cell{i,j}))*g2_pond;
-                  vec(j) = res;
+                vec(j) = ( str2double(g2) - str2double(cell{i,j}) )* g2_pond;
                   
             case 33 %g3
-                res = abs(str2double(g3) - str2double(cell{i,j}))*g3_pond;
-                  vec(j) = res;
+                vec(j) = ( str2double(g3) - str2double(cell{i,j}) )* g3_pond;
                   
         end
-        soma(i) = soma(i) + vec(j);
+        %soma(i) = soma(i) + vec(j);
     end
     %vec = vec*(1/649);
-    %disp(vec);
+    soma = sum(vec); % retorna a soma de todos os elementos do vetor e guarda-os em 'soma'
+    
+    disp(vec);
+    disp(soma/total_pond);
+    rank(i) = soma/total_pond;
+    
 end
+disp('FIM!');
+disp(rank);
 
 
 
