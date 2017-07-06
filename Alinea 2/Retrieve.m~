@@ -22,7 +22,7 @@ function varargout = Retrieve(varargin)
 
 % Edit the above text to modify the response to help Retrieve
 
-% Last Modified by GUIDE v2.5 02-Jul-2017 17:11:03
+% Last Modified by GUIDE v2.5 06-Jul-2017 19:01:02
 
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
@@ -1168,6 +1168,17 @@ if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgr
     set(hObject,'BackgroundColor','white');
 end
 
+% --- Executes when entered data in editable cell(s) in UItable.
+function UItable_CellEditCallback(hObject, eventdata, handles)
+% hObject    handle to UItable (see GCBO)
+% eventdata  structure with the following fields (see MATLAB.UI.CONTROL.TABLE)
+%	Indices: row and column indices of the cell(s) edited
+%	PreviousData: previous data for the cell(s) edited
+%	EditData: string(s) entered by the user
+%	NewData: EditData or its converted form set on the Data property. Empty if Data was not changed
+%	Error: error string when failed to convert EditData to appropriate value for Data
+% handles    structure with handles and user data (see GUIDATA)
+
 
 % --- Executes on button press in search.
 function search_Callback(hObject, eventdata, handles)
@@ -1214,36 +1225,7 @@ g1_pond = 1.0;
 g2_pond = 1.0;
 g3_pond = 1.0;
 
-total_pond = school_pond + sex_pond + age_pond + address_pond = 1.0;
-famsize_pond = 1.0;
-pstatus_pond = 1.0;
-medu_pond = 1.0;
-fedu_pond = 1.0;
-mjob_pond = 1.0;
-fjob_pond = 1.0;
-reason_pond = 1.0;
-guardian_pond = 1.0;
-traveltime_pond = 1.0;
-studytime_pond = 1.0;
-failures_pond = 1.0;
-schoolsup_pond = 1.0;
-famsup_pond = 1.0;
-paid_pond = 1.0;
-activities_pond = 1.0;
-nursery_pond = 1.0;
-higher_pond = 1.0;
-internet_pond = 1.0;
-romantic_pond = 1.0;
-famrel_pond = 1.0;
-freetime_pond = 1.0;
-goout_pond = 1.0;
-dalc_pond = 1.0;
-walc_pond = 1.0;
-health_pond = 1.0;
-absences_pond = 1.0;
-g1_pond = 1.0;
-g2_pond = 1.0;
-g3_pond = 1.0;
+total_pond = school_pond + sex_pond + age_pond + address_pond +famsize_pond + pstatus_pond + medu_pond + fedu_pond + mjob_pond + fjob_pond + reason_pond + guardian_pond + traveltime_pond + studytime_pond + failures_pond + schoolsup_pond + famsup_pond + paid_pond + activities_pond + nursery_pond + higher_pond + internet_pond + romantic_pond + famrel_pond + freetime_pond + goout_pond + dalc_pond + walc_pond + health_pond + absences_pond + g1_pond + g2_pond + g3_pond;
 
 % Radio Button School
 test = get(handles.panelSchool,'SelectedObject');
@@ -1369,9 +1351,7 @@ g3 = get(handles.editG3,'String');
 [rows, columns] = size(table);
 
 vec = zeros(1,33,'uint32');
-mat = zeros(649,33,'uint32');
-
-soma = zeros(1,649,'uint32');
+rank = zeros(1,649,'double');
 
 
 for i=1 : rows
@@ -1565,14 +1545,22 @@ for i=1 : rows
                 vec(j) = ( str2double(g3) - str2double(cell{i,j}) )* g3_pond;
                   
         end
-        %soma(i) = soma(i) + vec(j);
     end
-    %vec = vec*(1/649);
-    disp(vec);
+    soma = sum(vec); % retorna a soma de todos os elementos do vetor e guarda-os em 'soma'
+    rank(i) = soma/total_pond; % guarda a semelhan?a no vetor 'rank'
+    rank = rank.';
+    ranktable = array2table(rank);
+
+    
 end
-disp('FIM!');
+clc
+%disp(ranktable);
+table = [ranktable table];
+table = sortrows(table,1,'descend');
+f = 
+UItable.Data = table;
 
-
+disp(table);
 
 
 function editMedu_Callback(hObject, eventdata, handles)
@@ -1618,3 +1606,11 @@ function editFedu_CreateFcn(hObject, eventdata, handles)
 if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
     set(hObject,'BackgroundColor','white');
 end
+
+
+% --- Executes when selected cell(s) is changed in UItable.
+function UItable_CellSelectionCallback(hObject, eventdata, handles)
+% hObject    handle to UItable (see GCBO)
+% eventdata  structure with the following fields (see MATLAB.UI.CONTROL.TABLE)
+%	Indices: row and column indices of the cell(s) currently selecteds
+% handles    structure with handles and user data (see GUIDATA)
