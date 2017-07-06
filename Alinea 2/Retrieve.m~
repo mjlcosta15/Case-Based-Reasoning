@@ -22,7 +22,7 @@ function varargout = Retrieve(varargin)
 
 % Edit the above text to modify the response to help Retrieve
 
-% Last Modified by GUIDE v2.5 02-Jul-2017 17:11:03
+% Last Modified by GUIDE v2.5 06-Jul-2017 19:01:02
 
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
@@ -1168,6 +1168,17 @@ if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgr
     set(hObject,'BackgroundColor','white');
 end
 
+% --- Executes when entered data in editable cell(s) in UItable.
+function UItable_CellEditCallback(hObject, eventdata, handles)
+% hObject    handle to UItable (see GCBO)
+% eventdata  structure with the following fields (see MATLAB.UI.CONTROL.TABLE)
+%	Indices: row and column indices of the cell(s) edited
+%	PreviousData: previous data for the cell(s) edited
+%	EditData: string(s) entered by the user
+%	NewData: EditData or its converted form set on the Data property. Empty if Data was not changed
+%	Error: error string when failed to convert EditData to appropriate value for Data
+% handles    structure with handles and user data (see GUIDATA)
+
 
 % --- Executes on button press in search.
 function search_Callback(hObject, eventdata, handles)
@@ -1537,12 +1548,19 @@ for i=1 : rows
     end
     soma = sum(vec); % retorna a soma de todos os elementos do vetor e guarda-os em 'soma'
     rank(i) = soma/total_pond; % guarda a semelhan?a no vetor 'rank'
-    
+    rank = rank.';
     ranktable = array2table(rank);
+
     
 end
-disp('FIM!');
-disp(ranktable);
+clc
+%disp(ranktable);
+table = [ranktable table];
+table = sortrows(table,1,'descend');
+f = 
+UItable.Data = table;
+
+disp(table);
 
 
 function editMedu_Callback(hObject, eventdata, handles)
@@ -1588,3 +1606,11 @@ function editFedu_CreateFcn(hObject, eventdata, handles)
 if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
     set(hObject,'BackgroundColor','white');
 end
+
+
+% --- Executes when selected cell(s) is changed in UItable.
+function UItable_CellSelectionCallback(hObject, eventdata, handles)
+% hObject    handle to UItable (see GCBO)
+% eventdata  structure with the following fields (see MATLAB.UI.CONTROL.TABLE)
+%	Indices: row and column indices of the cell(s) currently selecteds
+% handles    structure with handles and user data (see GUIDATA)
