@@ -1343,6 +1343,8 @@ g3 = get(handles.editG3,'String');
 vec = zeros(1,33,'uint32');
 mat = zeros(649,33,'uint32');
 
+soma = zeros(1,649,'uint32');
+
 
 for i=1 : rows
     for j=1 : columns
@@ -1373,8 +1375,10 @@ for i=1 : rows
                 end
                
             case 3 % age
-                  res = abs(str2double(age)*age_pond - cell{i,j}*age_pond);
-                  vec(j) = res; 
+                  subtracao = str2double(age) - str2double(cell{i,j});
+                  subtracao = subtracao * age_pond;
+                  res = abs(subtracao);
+                  vec(j) = res;
        
             case 4 % address
                  cmp = strcmp(cell{i,j},address);
@@ -1547,49 +1551,50 @@ for i=1 : rows
                 end
                 
             case 24 % famrel
-                res = abs(str2double(famrel)*famrel_pond - cell{i,j}*famrel_pond);
+                res = abs(str2double(famrel) - str2double(cell{i,j}))*famrel_pond;
                   vec(j) = res;
                   
             case 25 % freetime
-                res = abs(str2double(freetime)*freetime_pond - cell{i,j}*freetime_pond);
+                res = abs(str2double(freetime) - str2double(cell{i,j}))*freetime_pond;
                   vec(j) = res;
                   
             case 26 % goout
-                res = abs(str2double(goout)*goout_pond - cell{i,j}*goout_pond);
+                res = abs(str2double(goout) - str2double(cell{i,j}))*goout_pond;
                   vec(j) = res;
                   
             case 27 % dalc
-                res = abs(str2double(dalc)*dalc_pond - cell{i,j}*dalc_pond);
+                res = abs(str2double(dalc) - str2double(cell{i,j}))*dalc_pond;
                   vec(j) = res;
                   
             case 28 % walc
-                res = abs(str2double(walc)*walc_pond - cell{i,j}*walc_pond);
+                res = abs(str2double(walc) - str2double(cell{i,j}))*walc_pond;
                   vec(j) = res;
                   
             case 29 % health
-                res = abs(str2double(health)*health_pond - cell{i,j}*health_pond);
+                res = abs(str2double(health) - str2double(cell{i,j}))*health_pond;
                   vec(j) = res;
                   
             case 30 % absences
-                res = abs(str2double(absences)*famrel_pond - cell{i,j}*absences_pond);
+                res = abs(str2double(absences) - str2double(cell{i,j}))*absences_pond;
                   vec(j) = res;
                   
             case 31 % g1
-                res = abs(str2double(g1)*g1_pond - cell{i,j}*g1_pond);
+                res = abs(str2double(g1) - str2double(cell{i,j}))*g1_pond;
                   vec(j) = res;
                   
             case 32 %g2
-                res = abs(str2double(g2)*g2_pond - cell{i,j}*g2_pond);
+                res = abs(str2double(g2) - str2double(cell{i,j}))*g2_pond;
                   vec(j) = res;
                   
             case 33 %g3
-                res = abs(str2double(g3)*g3_pond - cell{i,j}*g3_pond);
+                res = abs(str2double(g3) - str2double(cell{i,j}))*g3_pond;
                   vec(j) = res;
                   
         end
+        soma(i) = soma(i) + vec(j);
     end
-    vec = vec*(1/649);
-    disp(vec);
+    %vec = vec*(1/649);
+    %disp(vec);
 end
 
 
