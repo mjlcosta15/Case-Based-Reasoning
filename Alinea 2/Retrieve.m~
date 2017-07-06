@@ -1341,7 +1341,9 @@ g3 = get(handles.editG3,'String');
 [rows, columns] = size(table);
 
 vec = zeros(1,33,'uint32');
-mat = 
+mat = zeros(649,33,'uint32');
+
+soma = zeros(1,649,'uint32');
 
 
 for i=1 : rows
@@ -1373,8 +1375,10 @@ for i=1 : rows
                 end
                
             case 3 % age
-                  res = abs(str2double(age)*age_pond - cell{i,j}*age_pond);
-                  vec(j) = res; 
+                  res = abs(str2double(age) - cell{i,j})*age_pond;
+                  disp('->');
+                  disp(res);
+                  vec(j) = res;
        
             case 4 % address
                  cmp = strcmp(cell{i,j},address);
@@ -1587,9 +1591,10 @@ for i=1 : rows
                   vec(j) = res;
                   
         end
+        soma(i) = soma(i) + vec(j);
     end
-    
-    disp(vec);
+    %vec = vec*(1/649);
+    %disp(vec);
 end
 
 
