@@ -1191,6 +1191,8 @@ clc;
 
 table = readtable('por1.csv');
 
+% Primeiro Teste
+
 school_pond = 1.0;
 sex_pond = 1.0;
 age_pond = 1.0;
@@ -1224,6 +1226,42 @@ absences_pond = 1.0;
 g1_pond = 1.0;
 g2_pond = 1.0;
 g3_pond = 1.0;
+
+% Segundo Teste
+
+% g3_pond = 0.52703;
+% g2_pond = 0.52703;
+% g1_pond = 0.35642;
+% failures_pond = 0.30073;
+% higher_pond = 0.2338;
+% school_pond = 0.11172;
+% dalc_pond = 0.08271;
+% schoolsup_pond = 0.07854;
+% medu_pond = 0.07198;
+% fedu_pond = 0.06117;
+% studytime_pond = 0.06117;
+% paid_pond = 0.05823;
+% fjob_pond = 0.05503;
+% mjob_pond = 0.05412;
+% reason_pond = 0.05349;
+% traveltime_pond = 0.0529;
+% goout_pond  = 0.04979;
+% walc_pond = 0.04812;
+% address_pond = 0.04713;
+% famrel_pond = 0.04557;
+% freetime_pond = 0.04454;
+% health_pond = 0.04159;
+% guardian_pond = 0.03857;
+% internet_pond = 0.03645;
+% sex_pond = 0.02707;
+% activities_pond = 0.02511;
+% nursery_pond = 0.02417;
+% famsup_pond = 0.02335;
+% romantic_pond = 0.02129;
+% famsize_pond = 0.01638;
+% pstatus_pond = 0.00996;
+% absences_pond = 0.0;
+% age_pond = 0.0;
 
 total_pond = school_pond + sex_pond + age_pond + address_pond +famsize_pond + pstatus_pond + medu_pond + fedu_pond + mjob_pond + fjob_pond + reason_pond + guardian_pond + traveltime_pond + studytime_pond + failures_pond + schoolsup_pond + famsup_pond + paid_pond + activities_pond + nursery_pond + higher_pond + internet_pond + romantic_pond + famrel_pond + freetime_pond + goout_pond + dalc_pond + walc_pond + health_pond + absences_pond + g1_pond + g2_pond + g3_pond;
 
@@ -1377,7 +1415,7 @@ for i=1 : rows
                 end
                
             case 3 % age
-                  vec(j) = ( str2double(age) - str2double(cell{i,j}) )* age_pond;
+                  vec(j) = ( 1-abs(str2double(age) - str2double(cell{i,j})) )* age_pond;
        
             case 4 % address
                  cmp = strcmp(cell{i,j},address);
@@ -1404,10 +1442,10 @@ for i=1 : rows
                 end
        
             case 7 % medu
-                vec(j) = ( str2double(medu) - str2double(cell{i,j}) )* medu_pond;
+                vec(j) = ( 1-abs(str2double(medu) - str2double(cell{i,j})) )* medu_pond;
          
             case 8 % fedu
-                vec(j) = ( str2double(fedu) - str2double(cell{i,j}) )* fedu_pond;
+                vec(j) = ( 1-abs(str2double(fedu) - str2double(cell{i,j})) )* fedu_pond;
 
             case 9 % mjob
                 cmp = strcmp(cell{i,j},mjob);
@@ -1442,13 +1480,13 @@ for i=1 : rows
                 end
                 
             case 13 % traveltime
-                vec(j) = ( str2double(traveltime) - str2double(cell{i,j}) )* traveltime_pond;
+                vec(j) = ( 1-abs(str2double(traveltime) - str2double(cell{i,j})) )* traveltime_pond;
                 
             case 14 % studytime
-                vec(j) = ( str2double(studytime) - str2double(cell{i,j}) )* studytime_pond;
+                vec(j) = ( 1-abs(str2double(studytime) - str2double(cell{i,j})) )* studytime_pond;
                   
             case 15 % failures
-                vec(j) = ( str2double(failures) - str2double(cell{i,j}) )* failures_pond;
+                vec(j) = ( 1-abs(str2double(failures) - str2double(cell{i,j})) )* failures_pond;
                   
             case 16 % schoolsup
                 cmp = strcmp(cell{i,j},schoolsup);
@@ -1515,34 +1553,34 @@ for i=1 : rows
                 end
                 
             case 24 % famrel
-                vec(j) = ( str2double(famrel) - str2double(cell{i,j}) )* famrel_pond;
+                vec(j) = ( 1-abs(str2double(famrel) - str2double(cell{i,j})) )* famrel_pond;
                   
             case 25 % freetime
-                vec(j) = ( str2double(freetime) - str2double(cell{i,j}) )* freetime_pond;
+                vec(j) = ( 1-abs(str2double(freetime) - str2double(cell{i,j})) )* freetime_pond;
                   
             case 26 % goout
-                vec(j) = ( str2double(goout) - str2double(cell{i,j}) )* goout_pond;
+                vec(j) = ( 1-abs(str2double(goout) - str2double(cell{i,j})) )* goout_pond;
                   
             case 27 % dalc
-                vec(j) = ( str2double(dalc) - str2double(cell{i,j}) )* dalc_pond;
+                vec(j) = ( 1-abs(str2double(dalc) - str2double(cell{i,j})) )* dalc_pond;
                   
             case 28 % walc
-                vec(j) = ( str2double(walc) - str2double(cell{i,j}) )* walc_pond;
+                vec(j) = ( 1-abs(str2double(walc) - str2double(cell{i,j})) )* walc_pond;
                   
             case 29 % health
-                vec(j) = ( str2double(health) - str2double(cell{i,j}) )* health_pond;
+                vec(j) = ( 1-abs(str2double(health) - str2double(cell{i,j})) )* health_pond;
                   
             case 30 % absences
-                vec(j) = ( str2double(absences) - str2double(cell{i,j}) )* absences_pond;
+                vec(j) = ( 1-abs(str2double(absences) - str2double(cell{i,j})) )* absences_pond;
                   
             case 31 % g1
-                vec(j) = ( str2double(g1) - str2double(cell{i,j}) )* g1_pond;
+                vec(j) = ( 1-abs(str2double(g1) - str2double(cell{i,j})) )* g1_pond;
                   
             case 32 %g2
-                vec(j) = ( str2double(g2) - str2double(cell{i,j}) )* g2_pond;
+                vec(j) = ( 1-abs(str2double(g2) - str2double(cell{i,j})) )* g2_pond;
                   
             case 33 %g3
-                vec(j) = ( str2double(g3) - str2double(cell{i,j}) )* g3_pond;
+                vec(j) = ( 1-abs(str2double(g3) - str2double(cell{i,j})) )* g3_pond;
                   
         end
     end
