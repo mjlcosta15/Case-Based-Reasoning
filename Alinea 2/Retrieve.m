@@ -1534,20 +1534,19 @@ for i=1 : rows
                 vec(j) = ( str2double(g3) - str2double(cell{i,j}) )* g3_pond;
                   
         end
-        %soma(i) = soma(i) + vec(j);
     end
-    %vec = vec*(1/649);
     soma = sum(vec); % retorna a soma de todos os elementos do vetor e guarda-os em 'soma'
-    
-    disp(vec);
-    disp(soma/total_pond);
-    rank(i) = soma/total_pond;
+    rank(i) = soma/total_pond; % guarda a semelhan?a no vetor 'rank'
+    rank = rank.';
+    ranktable = array2table(rank);
+
     
 end
-disp('FIM!');
-disp(rank);
-
-
+clc
+%disp(ranktable);
+table = [ranktable table];
+table = sortrows(table,1,'descend');
+%disp(table);
 
 
 function editMedu_Callback(hObject, eventdata, handles)
