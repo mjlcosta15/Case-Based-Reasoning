@@ -57,7 +57,6 @@ for i = 1 : length(part1) % percorre o vetor
         
         if isnumeric(entry)
             entry = num2str(entry);
-            disp(entry);
         end
         
         if j==columns % divide notas de 1 a 4
@@ -139,7 +138,7 @@ end
 fprintf('=');
 fprintf('\nTask Complete!\n');
 
-disp(cell);
+disp
  
 
 

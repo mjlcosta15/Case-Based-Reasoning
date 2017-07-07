@@ -1389,8 +1389,17 @@ g3 = get(handles.editG3,'String');
 [rows, columns] = size(table);
 
 vec = zeros(1,33,'uint32');
-rank = zeros(1,649,'double');
+rank = zeros(1,rows,'double');
 
+clc;
+
+fprintf('0%%');
+for i = 0:rows
+    if 0 == mod(i,10)
+        fprintf(' ')
+    end
+end
+fprintf('100%%\n  ');
 
 for i=1 : rows
     for j=1 : columns
@@ -1583,16 +1592,24 @@ for i=1 : rows
                 vec(j) = ( 1-abs(str2double(g3) - str2double(cell{i,j})) )* g3_pond;
                   
         end
+
     end
+    
+    if 0 == mod(i,10)
+        fprintf('=');
+    end
+    
+    %disp(vec);
     soma = sum(vec); % retorna a soma de todos os elementos do vetor e guarda-os em 'soma'
     rank(i) = soma/total_pond; % guarda a semelhan?a no vetor 'rank'
-    rank = rank.';
-    ranktable = array2table(rank);
+    
+    
+    
 
     
 end
-clc
-%disp(ranktable);
+rank = rank.';
+ranktable = array2table(rank);
 table = [ranktable table];
 table = sortrows(table,1,'descend');
 f = Retrieve;
@@ -1602,7 +1619,12 @@ cell = table2cell(table);
 
 t.Data = cell;
 
-disp(table);
+% Fim do programa
+fprintf('=');
+fprintf('\nTask Complete!\n');
+%disp(table);
+
+
 
 
 function editMedu_Callback(hObject, eventdata, handles)
