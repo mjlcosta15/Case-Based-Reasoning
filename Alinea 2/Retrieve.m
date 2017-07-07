@@ -1926,20 +1926,24 @@ for x = 1 : qrows
 
     end
     
-    rank = rank.';
-    ranktable = array2table(rank);
+    %rank = rank.';
+    %ranktable = array2table(rank);
     %table = [ranktable table];
     %table = sortrows(table,1,'descend');
     
-    dlmwrite('ranks.csv','separator');
-    dlmwrite('ranks.csv',rank,'Delimiter','','-append');
+    %separador = 'separador';
+    
+    %dlmwrite('ranks.csv',separador);
+    rank = sort(rank);
+    %disp(rank);
+    dlmwrite('ranks.csv',rank,'Delimiter',',','-append');
     
     
     %GUI
-    f = Retrieve;
-    t = uitable(f);
-    cell = table2cell(table);
-    t.Data = cell;
+    %f = Retrieve;
+    %t = uitable(f);
+    %cell = table2cell(table);
+    %t.Data = cell;
     %GUI
     
     % barra de percentagem
@@ -1954,8 +1958,6 @@ end
 % Fim do programa
 fprintf('=');
 fprintf('\nTask Complete!\n');
-disp(table);
-
 
 function editMedu_Callback(hObject, eventdata, handles)
 % hObject    handle to editMedu (see GCBO)
