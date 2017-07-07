@@ -1603,10 +1603,6 @@ for i=1 : rows
     soma = sum(vec); % retorna a soma de todos os elementos do vetor e guarda-os em 'soma'
     rank(i) = soma/total_pond; % guarda a semelhan?a no vetor 'rank'
     
-    
-    
-
-    
 end
 rank = rank.';
 ranktable = array2table(rank);
@@ -1924,34 +1920,44 @@ for x = 1 : qrows
 
         end
 
-        %disp(vec);
-        soma = sum(vec); % retorna a soma de todos os elementos do vetor e guarda-os em 'soma'
-        rank(i) = soma/total_pond; % guarda a semelhan?a no vetor 'rank'
+    %disp(vec);
+    soma = sum(vec); % retorna a soma de todos os elementos do vetor e guarda-os em 'soma'
+    rank(i) = soma/total_pond; % guarda a semelhan?a no vetor 'rank'
 
     end
+    
+    %rank = rank.';
+    %ranktable = array2table(rank);
+    %table = [ranktable table];
+    %table = sortrows(table,1,'descend');
+    
+    %separador = 'separador';
+    
+    %dlmwrite('ranks.csv',separador);
+    rank = sort(rank);
+    %disp(rank);
+    dlmwrite('ranks.csv',rank,'Delimiter',',','-append');
+    
+    
+    %GUI
+    %f = Retrieve;
+    %t = uitable(f);
+    %cell = table2cell(table);
+    %t.Data = cell;
+    %GUI
+    
     % barra de percentagem
     if 0 == mod(x,10)
        fprintf('=');
     end
-
+    
 end
 
-rank = rank.';
-ranktable = array2table(rank);
-table = [ranktable table];
-table = sortrows(table,1,'descend');
-f = Retrieve;
-t = uitable(f);
 
-cell = table2cell(table);
-
-t.Data = cell;
 
 % Fim do programa
 fprintf('=');
 fprintf('\nTask Complete!\n');
-disp(table);
-
 
 function editMedu_Callback(hObject, eventdata, handles)
 % hObject    handle to editMedu (see GCBO)
