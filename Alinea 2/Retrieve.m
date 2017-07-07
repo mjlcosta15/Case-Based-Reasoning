@@ -1298,6 +1298,7 @@ fedu = get(handles.editFedu,'String');
 allItems = get(handles.popMjob,'string')
 selectedIndex = get(handles.popMjob,'Value')
 mjob = allItems{selectedIndex};
+disp(mjob);
 
 % Pop-Up Menu Father Job
 allItems = get(handles.popFjob,'string')
@@ -1326,6 +1327,7 @@ failures = get(handles.editFailures,'String');
 % Radio Button School Support
 test = get(handles.panelSsupport,'SelectedObject');
 schoolsup = get(test,'String');
+disp(schoolsup);
 
 % Radio Button Family Support
 test = get(handles.panelFsupport,'SelectedObject');
@@ -1449,6 +1451,7 @@ for i=1 : rows
 
             case 9 % mjob
                 cmp = strcmp(cell{i,j},mjob);
+                disp(cell{i,j});
                 if cmp == true
                     vec(j) = 1*mjob_pond;      
                 elseif cmp == false
@@ -1583,11 +1586,15 @@ for i=1 : rows
                 vec(j) = ( 1-abs(str2double(g3) - str2double(cell{i,j})) )* g3_pond;
                   
         end
+
     end
+    disp(vec);
     soma = sum(vec); % retorna a soma de todos os elementos do vetor e guarda-os em 'soma'
     rank(i) = soma/total_pond; % guarda a semelhan?a no vetor 'rank'
     rank = rank.';
     ranktable = array2table(rank);
+    
+    
 
     
 end
@@ -1603,6 +1610,8 @@ cell = table2cell(table);
 t.Data = cell;
 
 disp(table);
+
+
 
 
 function editMedu_Callback(hObject, eventdata, handles)
