@@ -1936,7 +1936,7 @@ for x = 1 : qrows
     %dlmwrite('ranks.csv',separador);
     %rank = sort(rank); % comentar/descomentar para ordenar ou n?o
     %disp(rank);
-    dlmwrite('ranks.csv',rank,'Delimiter',';','-append'); 
+    dlmwrite('ranks.csv',rank,'Delimiter',';','-append');
     
     
     %GUI
@@ -1957,14 +1957,11 @@ tabela = readtable('ranks.csv');
 
 rank = table2array(tabela);
 novatabela = array2table(rank.');
-tabelacasos = cell2table(cell);
+novatabela = [novatabela, 
 
 delete 'ranks.csv';
-writetable(novatabela, 'ranks.csv');
 
-novatabela = [novatabela, tabelacasos];
-
-writetable(novatabela,'ranks+cases.csv'); % grava os ranks com a tabela
+writetable(novatabela,'ranks.csv');
 
 
 
