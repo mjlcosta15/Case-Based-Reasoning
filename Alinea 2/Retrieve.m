@@ -22,7 +22,7 @@ function varargout = Retrieve(varargin)
 
 % Edit the above text to modify the response to help Retrieve
 
-% Last Modified by GUIDE v2.5 07-Jul-2017 18:32:32
+% Last Modified by GUIDE v2.5 09-Jul-2017 16:20:15
 
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
@@ -1193,77 +1193,75 @@ table = readtable('por1.csv');
 
 % Primeiro Teste
 
-school_pond = 1.0;
-sex_pond = 1.0;
-age_pond = 1.0;
-address_pond = 1.0;
-famsize_pond = 1.0;
-pstatus_pond = 1.0;
-medu_pond = 1.0;
-fedu_pond = 1.0;
-mjob_pond = 1.0;
-fjob_pond = 1.0;
-reason_pond = 1.0;
-guardian_pond = 1.0;
-traveltime_pond = 1.0;
-studytime_pond = 1.0;
-failures_pond = 1.0;
-schoolsup_pond = 1.0;
-famsup_pond = 1.0;
-paid_pond = 1.0;
-activities_pond = 1.0;
-nursery_pond = 1.0;
-higher_pond = 1.0;
-internet_pond = 1.0;
-romantic_pond = 1.0;
-famrel_pond = 1.0;
-freetime_pond = 1.0;
-goout_pond = 1.0;
-dalc_pond = 1.0;
-walc_pond = 1.0;
-health_pond = 1.0;
-absences_pond = 1.0;
-g1_pond = 1.0;
-g2_pond = 1.0;
-g3_pond = 1.0;
+%school_pond = 1.0;
+% sex_pond = 1.0;
+% age_pond = 1.0;
+% address_pond = 1.0;
+% famsize_pond = 1.0;
+% pstatus_pond = 1.0;
+% medu_pond = 1.0;
+% fedu_pond = 1.0;
+% mjob_pond = 1.0;
+% fjob_pond = 1.0;
+% reason_pond = 1.0;
+% guardian_pond = 1.0;
+% traveltime_pond = 1.0;
+% studytime_pond = 1.0;
+% failures_pond = 1.0;
+% schoolsup_pond = 1.0;
+% famsup_pond = 1.0;
+% paid_pond = 1.0;
+% activities_pond = 1.0;
+% nursery_pond = 1.0;
+% higher_pond = 1.0;
+% internet_pond = 1.0;
+% romantic_pond = 1.0;
+% famrel_pond = 1.0;
+% freetime_pond = 1.0;
+% goout_pond = 1.0;
+% dalc_pond = 1.0;
+% walc_pond = 1.0;
+% health_pond = 1.0;
+% absences_pond = 1.0;
+% g1_pond = 1.0;
+% g2_pond = 1.0;
 
 % Segundo Teste
 
-% g3_pond = 0.52703;
-% g2_pond = 0.52703;
-% g1_pond = 0.35642;
-% failures_pond = 0.30073;
-% higher_pond = 0.2338;
-% school_pond = 0.11172;
-% dalc_pond = 0.08271;
-% schoolsup_pond = 0.07854;
-% medu_pond = 0.07198;
-% fedu_pond = 0.06117;
-% studytime_pond = 0.06117;
-% paid_pond = 0.05823;
-% fjob_pond = 0.05503;
-% mjob_pond = 0.05412;
-% reason_pond = 0.05349;
-% traveltime_pond = 0.0529;
-% goout_pond  = 0.04979;
-% walc_pond = 0.04812;
-% address_pond = 0.04713;
-% famrel_pond = 0.04557;
-% freetime_pond = 0.04454;
-% health_pond = 0.04159;
-% guardian_pond = 0.03857;
-% internet_pond = 0.03645;
-% sex_pond = 0.02707;
-% activities_pond = 0.02511;
-% nursery_pond = 0.02417;
-% famsup_pond = 0.02335;
-% romantic_pond = 0.02129;
-% famsize_pond = 0.01638;
-% pstatus_pond = 0.00996;
-% absences_pond = 0.0;
-% age_pond = 0.0;
+g2_pond = 0.52703;
+g1_pond = 0.35642;
+failures_pond = 0.30073;
+higher_pond = 0.2338;
+school_pond = 0.11172;
+dalc_pond = 0.08271;
+schoolsup_pond = 0.07854;
+medu_pond = 0.07198;
+fedu_pond = 0.06346;
+studytime_pond = 0.06117;
+paid_pond = 0.05823;
+fjob_pond = 0.05503;
+mjob_pond = 0.05412;
+reason_pond = 0.05349;
+traveltime_pond = 0.05029;
+goout_pond  = 0.04979;
+walc_pond = 0.04812;
+address_pond = 0.04713;
+famrel_pond = 0.04557;
+freetime_pond = 0.04454;
+health_pond = 0.04159;
+guardian_pond = 0.03857;
+internet_pond = 0.03645;
+sex_pond = 0.02707;
+activities_pond = 0.02511;
+nursery_pond = 0.02417;
+famsup_pond = 0.02335;
+romantic_pond = 0.02129;
+famsize_pond = 0.01638;
+pstatus_pond = 0.00996;
+absences_pond = 0.0;
+age_pond = 0.0;
 
-total_pond = school_pond + sex_pond + age_pond + address_pond +famsize_pond + pstatus_pond + medu_pond + fedu_pond + mjob_pond + fjob_pond + reason_pond + guardian_pond + traveltime_pond + studytime_pond + failures_pond + schoolsup_pond + famsup_pond + paid_pond + activities_pond + nursery_pond + higher_pond + internet_pond + romantic_pond + famrel_pond + freetime_pond + goout_pond + dalc_pond + walc_pond + health_pond + absences_pond + g1_pond + g2_pond + g3_pond;
+total_pond = school_pond + sex_pond + age_pond + address_pond +famsize_pond + pstatus_pond + medu_pond + fedu_pond + mjob_pond + fjob_pond + reason_pond + guardian_pond + traveltime_pond + studytime_pond + failures_pond + schoolsup_pond + famsup_pond + paid_pond + activities_pond + nursery_pond + higher_pond + internet_pond + romantic_pond + famrel_pond + freetime_pond + goout_pond + dalc_pond + walc_pond + health_pond + absences_pond + g1_pond + g2_pond;
 
 % Radio Button School
 test = get(handles.panelSchool,'SelectedObject');
@@ -1388,10 +1386,11 @@ g3 = get(handles.editG3,'String');
 % variables
 [rows, columns] = size(table);
 
-vec = zeros(1,33,'uint32');
+vec = zeros(1,33,'double');
 rank = zeros(1,rows,'double');
 
 clc;
+
 
 fprintf('0%%');
 for i = 0:rows
@@ -1588,9 +1587,6 @@ for i=1 : rows
             case 32 %g2
                 vec(j) = ( 1-abs(str2double(g2) - str2double(cell{i,j})) )* g2_pond;
                   
-            case 33 %g3
-                vec(j) = ( 1-abs(str2double(g3) - str2double(cell{i,j})) )* g3_pond;
-                  
         end
 
     end
@@ -1628,81 +1624,80 @@ function pb_file_Callback(hObject, eventdata, handles)
 
 clc;
 
-
 table = readtable('por1.csv');
 query = readtable('por2.csv');
 
 % Primeiro Teste
 
-school_pond = 1.0;
-sex_pond = 1.0;
-age_pond = 1.0;
-address_pond = 1.0;
-famsize_pond = 1.0;
-pstatus_pond = 1.0;
-medu_pond = 1.0;
-fedu_pond = 1.0;
-mjob_pond = 1.0;
-fjob_pond = 1.0;
-reason_pond = 1.0;
-guardian_pond = 1.0;
-traveltime_pond = 1.0;
-studytime_pond = 1.0;
-failures_pond = 1.0;
-schoolsup_pond = 1.0;
-famsup_pond = 1.0;
-paid_pond = 1.0;
-activities_pond = 1.0;
-nursery_pond = 1.0;
-higher_pond = 1.0;
-internet_pond = 1.0;
-romantic_pond = 1.0;
-famrel_pond = 1.0;
-freetime_pond = 1.0;
-goout_pond = 1.0;
-dalc_pond = 1.0;
-walc_pond = 1.0;
-health_pond = 1.0;
-absences_pond = 1.0;
-g1_pond = 1.0;
-g2_pond = 1.0;
-g3_pond = 1.0;
+% school_pond = 1.0;
+% sex_pond = 1.0;
+% age_pond = 1.0;
+% address_pond = 1.0;
+% famsize_pond = 1.0;
+% pstatus_pond = 1.0;
+% medu_pond = 1.0;
+% fedu_pond = 1.0;
+% mjob_pond = 1.0;
+% fjob_pond = 1.0;
+% reason_pond = 1.0;
+% guardian_pond = 1.0;
+% traveltime_pond = 1.0;
+% studytime_pond = 1.0;
+% failures_pond = 1.0;
+% schoolsup_pond = 1.0;
+% famsup_pond = 1.0;
+% paid_pond = 1.0;
+% activities_pond = 1.0;
+% nursery_pond = 1.0;
+% higher_pond = 1.0;
+% internet_pond = 1.0;
+% romantic_pond = 1.0;
+% famrel_pond = 1.0;
+% freetime_pond = 1.0;
+% goout_pond = 1.0;
+% dalc_pond = 1.0;
+% walc_pond = 1.0;
+% health_pond = 1.0;
+% absences_pond = 1.0;
+% g1_pond = 1.0;
+% g2_pond = 1.0;
+% g3_pond = 1.0;
 
 % Segundo Teste
 
-% g3_pond = 0.52703;
-% g2_pond = 0.52703;
-% g1_pond = 0.35642;
-% failures_pond = 0.30073;
-% higher_pond = 0.2338;
-% school_pond = 0.11172;
-% dalc_pond = 0.08271;
-% schoolsup_pond = 0.07854;
-% medu_pond = 0.07198;
-% fedu_pond = 0.06117;
-% studytime_pond = 0.06117;
-% paid_pond = 0.05823;
-% fjob_pond = 0.05503;
-% mjob_pond = 0.05412;
-% reason_pond = 0.05349;
-% traveltime_pond = 0.0529;
-% goout_pond  = 0.04979;
-% walc_pond = 0.04812;
-% address_pond = 0.04713;
-% famrel_pond = 0.04557;
-% freetime_pond = 0.04454;
-% health_pond = 0.04159;
-% guardian_pond = 0.03857;
-% internet_pond = 0.03645;
-% sex_pond = 0.02707;
-% activities_pond = 0.02511;
-% nursery_pond = 0.02417;
-% famsup_pond = 0.02335;
-% romantic_pond = 0.02129;
-% famsize_pond = 0.01638;
-% pstatus_pond = 0.00996;
-% absences_pond = 0.0;
-% age_pond = 0.0;
+g3_pond = 0.52703;
+g2_pond = 0.52703;
+g1_pond = 0.35642;
+failures_pond = 0.30073;
+higher_pond = 0.2338;
+school_pond = 0.11172;
+dalc_pond = 0.08271;
+schoolsup_pond = 0.07854;
+medu_pond = 0.07198;
+fedu_pond = 0.06117;
+studytime_pond = 0.06117;
+paid_pond = 0.05823;
+fjob_pond = 0.05503;
+mjob_pond = 0.05412;
+reason_pond = 0.05349;
+traveltime_pond = 0.0529;
+goout_pond  = 0.04979;
+walc_pond = 0.04812;
+address_pond = 0.04713;
+famrel_pond = 0.04557;
+freetime_pond = 0.04454;
+health_pond = 0.04159;
+guardian_pond = 0.03857;
+internet_pond = 0.03645;
+sex_pond = 0.02707;
+activities_pond = 0.02511;
+nursery_pond = 0.02417;
+famsup_pond = 0.02335;
+romantic_pond = 0.02129;
+famsize_pond = 0.01638;
+pstatus_pond = 0.00996;
+absences_pond = 0.0;
+age_pond = 0.0;
 
 total_pond = school_pond + sex_pond + age_pond + address_pond +famsize_pond + pstatus_pond + medu_pond + fedu_pond + mjob_pond + fjob_pond + reason_pond + guardian_pond + traveltime_pond + studytime_pond + failures_pond + schoolsup_pond + famsup_pond + paid_pond + activities_pond + nursery_pond + higher_pond + internet_pond + romantic_pond + famrel_pond + freetime_pond + goout_pond + dalc_pond + walc_pond + health_pond + absences_pond + g1_pond + g2_pond + g3_pond;
 
@@ -2023,5 +2018,46 @@ function UItable_CellSelectionCallback(hObject, eventdata, handles)
 % eventdata  structure with the following fields (see MATLAB.UI.CONTROL.TABLE)
 %	Indices: row and column indices of the cell(s) currently selecteds
 % handles    structure with handles and user data (see GUIDATA)
+
+
+% --- Executes on button press in retain.
+function retain_Callback(hObject, eventdata, handles)
+% hObject    handle to retain (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+
+ranksTable = readtable('ranks.csv');
+casesTable = readtable('por1.csv');
+
+ranksCell = table2cell(ranksTable);
+casesCell = table2cell(casesTable);
+
+[rows, columns] = size(ranksTable);
+
+maxVal = 0;
+
+for i = 1 : rows
+    for j = 1 : columns
+        
+        if ranksCell{i,j} > maxVal
+            maxVal = ranksCell{i,j};
+        end
+
+    end    
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
