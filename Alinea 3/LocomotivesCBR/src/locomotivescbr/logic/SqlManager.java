@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package locomotivescbr.database;
+package locomotivescbr.logic;
 
 import java.io.File;
 import java.sql.*;
@@ -30,14 +30,7 @@ public class SqlManager {
                 stmt = cn.createStatement();
                 stmt.executeUpdate(SqlQueries.createTable);                
                 stmt.executeUpdate(SqlQueries.case11);
-                stmt.executeUpdate(SqlQueries.case12);
-                stmt.executeUpdate(SqlQueries.case13);
-                stmt.executeUpdate(SqlQueries.case14);
-                stmt.executeUpdate(SqlQueries.case15);
                 stmt.executeUpdate(SqlQueries.case21);
-                stmt.executeUpdate(SqlQueries.case22);
-                stmt.executeUpdate(SqlQueries.case23);
-                stmt.executeUpdate(SqlQueries.case24);
                 stmt.close();
                 cn.commit();
                 cn.close();
@@ -109,7 +102,7 @@ public class SqlManager {
                     + "proc915,"
                     + "proc921,"
                     + "proc922,"
-                    + "proc923"
+                    + "proc923,"
                     + "proc924) \n"
                     + "VALUES ("
                     + c.getLocomotive() + ","
