@@ -1414,17 +1414,17 @@ for i=1 : rows
             case 1 %school
                 cmp = strcmp(cell{i,j},school);
                 if cmp == true
-                    vec(j) = 1*school_pond;      
+                    vec(j) = 0*school_pond;      
                 elseif cmp == false
-                    vec(j) = 0*school_pond;  
+                    vec(j) = 1*school_pond;  
                 end
                 
             case 2 %sex
                 cmp = strcmp(cell{i,j},sex);
                 if cmp == true          
-                    vec(j) = 1*sex_pond;         
+                    vec(j) = 0*sex_pond;         
                 elseif cmp == false
-                    vec(j) = 0*sex_pond;      
+                    vec(j) = 1*sex_pond;      
                 end
                
             case 3 % age
@@ -1435,25 +1435,25 @@ for i=1 : rows
             case 4 % address
                  cmp = strcmp(cell{i,j},address);
                 if cmp == true
-                    vec(j) = 1*address_pond;      
+                    vec(j) = 0*address_pond;      
                 elseif cmp == false
-                    vec(j) = 0*address_pond;  
+                    vec(j) = 1*address_pond;  
                 end
      
             case 5 % famsize
                cmp = strcmp(cell{i,j},famsize);
                 if cmp == true
-                    vec(j) = 1*famsize_pond;      
+                    vec(j) = 0*famsize_pond;      
                 elseif cmp == false
-                    vec(j) = 0*famsize_pond;  
+                    vec(j) = 1*famsize_pond;  
                 end
         
             case 6 % pstatus
                 cmp = strcmp(cell{i,j},pstatus);
                 if cmp == true
-                    vec(j) = 1*pstatus_pond;      
+                    vec(j) = 0*pstatus_pond;      
                 elseif cmp == false
-                    vec(j) = 0*pstatus_pond;  
+                    vec(j) = 1*pstatus_pond;  
                 end
        
             case 7 % medu
@@ -1469,33 +1469,33 @@ for i=1 : rows
             case 9 % mjob
                 cmp = strcmp(cell{i,j},mjob);
                 if cmp == true
-                    vec(j) = 1*mjob_pond;      
+                    vec(j) = 0*mjob_pond;      
                 elseif cmp == false
-                    vec(j) = 0*mjob_pond;  
+                    vec(j) = 1*mjob_pond;  
                 end
         
             case 10 % fjob
                 cmp = strcmp(cell{i,j},fjob);
                 if cmp == true
-                    vec(j) = 1*fjob_pond;      
+                    vec(j) = 0*fjob_pond;      
                 elseif cmp == false
-                    vec(j) = 0*fjob_pond;  
+                    vec(j) = 1*fjob_pond;  
                 end
      
             case 11 % reason
                 cmp = strcmp(cell{i,j},reason);
                 if cmp == true
-                    vec(j) = 1*reason_pond;      
+                    vec(j) = 0*reason_pond;      
                 elseif cmp == false
-                    vec(j) = 0*reason_pond;  
+                    vec(j) = 1*reason_pond;  
                 end
                 
             case 12 % guardian
                 cmp = strcmp(cell{i,j},guardian);
                 if cmp == true
-                    vec(j) = 1*guardian_pond;      
+                    vec(j) = 0*guardian_pond;      
                 elseif cmp == false
-                    vec(j) = 0*guardian_pond;  
+                    vec(j) = 1*guardian_pond;  
                 end
                 
             case 13 % traveltime
@@ -1516,65 +1516,65 @@ for i=1 : rows
             case 16 % schoolsup
                 cmp = strcmp(cell{i,j},schoolsup);
                 if cmp == true
-                    vec(j) = 1*schoolsup_pond;      
+                    vec(j) = 0*schoolsup_pond;      
                 elseif cmp == false
-                    vec(j) = 0*schoolsup_pond;  
+                    vec(j) = 1*schoolsup_pond;  
                 end
                 
             case 17 % famsup
                 cmp = strcmp(cell{i,j},famsup);
                 if cmp == true
-                    vec(j) = 1*famsup_pond;      
+                    vec(j) = 0*famsup_pond;      
                 elseif cmp == false
-                    vec(j) = 0*famsup_pond;  
+                    vec(j) = 1*famsup_pond;  
                 end
                 
             case 18 % paid
                 cmp = strcmp(cell{i,j},paid);
                 if cmp == true
-                    vec(j) = 1*paid_pond;      
+                    vec(j) = 0*paid_pond;      
                 elseif cmp == false
-                    vec(j) = 0*paid_pond;  
+                    vec(j) = 1*paid_pond;  
                 end
                 
             case 19 % activities
                 cmp = strcmp(cell{i,j},activities);
                 if cmp == true
-                    vec(j) = 1*activities_pond;      
+                    vec(j) = 0*activities_pond;      
                 elseif cmp == false
-                    vec(j) = 0*activities_pond;  
+                    vec(j) = 1*activities_pond;  
                 end
                 
             case 20 % nursery
                 cmp = strcmp(cell{i,j},nursery);
                 if cmp == true
-                    vec(j) = 1*nursery_pond;      
+                    vec(j) = 0*nursery_pond;      
                 elseif cmp == false
-                    vec(j) = 0*nursery_pond;  
+                    vec(j) = 1*nursery_pond;  
                 end
                 
             case 21 % higher
                  cmp = strcmp(cell{i,j},higher);
                 if cmp == true
-                    vec(j) = 1*higher_pond;      
+                    vec(j) = 0*higher_pond;      
                 elseif cmp == false
-                    vec(j) = 0*higher_pond;  
+                    vec(j) = 1*higher_pond;  
                 end
                 
             case 22 % internet
                 cmp = strcmp(cell{i,j},internet);
                 if cmp == true
-                    vec(j) = 1*internet_pond;      
+                    vec(j) = 0*internet_pond;      
                 elseif cmp == false
-                    vec(j) = 0*internet_pond;  
+                    vec(j) = 1*internet_pond;  
                 end
                 
             case 23 % romantic
                 cmp = strcmp(cell{i,j},romantic);
                 if cmp == true
-                    vec(j) = 1*romantic_pond;      
+                    vec(j) = 0*romantic_pond;      
                 elseif cmp == false
-                    vec(j) = 0*romantic_pond;  
+                    vec(j) = 1*romantic_pond;  
                 end
                 
             case 24 % famrel
@@ -1633,7 +1633,7 @@ for i=1 : rows
     %disp(vec);
     soma = sum(vec); % retorna a soma de todos os elementos do vetor e guarda-os em 'soma'
     %rank(i) = soma/total_pond; % guarda a semelhan?a no vetor 'rank'
-    rank(i) = 1 - (soma/total_pond; % guarda a semelhan?a no vetor 'rank'
+    rank(i) = 1 -(soma/total_pond); % guarda a semelhan?a no vetor 'rank'
     
 end
 rank = rank.';
@@ -1773,17 +1773,17 @@ for x = 1 : qrows
                 case 1 %school
                     cmp = strcmp(cell{i,j},querycell{x,j});
                     if cmp == true
-                        vec(j) = 1*school_pond;      
+                        vec(j) = 0*school_pond;      
                     elseif cmp == false
-                        vec(j) = 0*school_pond;  
+                        vec(j) = 1*school_pond;  
                     end
 
                 case 2 %sex
                     cmp = strcmp(cell{i,j},querycell{x,j});
                     if cmp == true          
-                        vec(j) = 1*sex_pond;         
+                        vec(j) = 0*sex_pond;         
                     elseif cmp == false
-                        vec(j) = 0*sex_pond;      
+                        vec(j) = 1*sex_pond;      
                     end
 
                 case 3 % age
@@ -1794,25 +1794,25 @@ for x = 1 : qrows
                 case 4 % address
                     cmp = strcmp(cell{i,j},querycell{x,j});
                     if cmp == true
-                        vec(j) = 1*address_pond;      
+                        vec(j) = 0*address_pond;      
                     elseif cmp == false
-                        vec(j) = 0*address_pond;  
+                        vec(j) = 1*address_pond;  
                     end
 
                 case 5 % famsize
                    cmp = strcmp(cell{i,j},querycell{x,j});
                     if cmp == true
-                        vec(j) = 1*famsize_pond;      
+                        vec(j) = 0*famsize_pond;      
                     elseif cmp == false
-                        vec(j) = 0*famsize_pond;  
+                        vec(j) = 1*famsize_pond;  
                     end
 
                 case 6 % pstatus
                     cmp = strcmp(cell{i,j},querycell{x,j});
                     if cmp == true
-                        vec(j) = 1*pstatus_pond;      
+                        vec(j) = 0*pstatus_pond;      
                     elseif cmp == false
-                        vec(j) = 0*pstatus_pond;  
+                        vec(j) = 1*pstatus_pond;  
                     end
 
                 case 7 % medu
@@ -1828,33 +1828,33 @@ for x = 1 : qrows
                 case 9 % mjob
                     cmp = strcmp(cell{i,j},querycell{x,j});
                     if cmp == true
-                        vec(j) = 1*mjob_pond;      
+                        vec(j) = 0*mjob_pond;      
                     elseif cmp == false
-                        vec(j) = 0*mjob_pond;  
+                        vec(j) = 1*mjob_pond;  
                     end
 
                 case 10 % fjob
                     cmp = strcmp(cell{i,j},querycell{x,j});
                     if cmp == true
-                        vec(j) = 1*fjob_pond;      
+                        vec(j) = 0*fjob_pond;      
                     elseif cmp == false
-                        vec(j) = 0*fjob_pond;  
+                        vec(j) = 1*fjob_pond;  
                     end
 
                 case 11 % reason
                     cmp = strcmp(cell{i,j},querycell{x,j});
                     if cmp == true
-                        vec(j) = 1*reason_pond;      
+                        vec(j) = 0*reason_pond;      
                     elseif cmp == false
-                        vec(j) = 0*reason_pond;  
+                        vec(j) = 1*reason_pond;  
                     end
 
                 case 12 % guardian
                     cmp = strcmp(cell{i,j},querycell{x,j});
                     if cmp == true
-                        vec(j) = 1*guardian_pond;      
+                        vec(j) = 0*guardian_pond;      
                     elseif cmp == false
-                        vec(j) = 0*guardian_pond;  
+                        vec(j) = 1*guardian_pond;  
                     end
 
                 case 13 % traveltime
@@ -1875,65 +1875,65 @@ for x = 1 : qrows
                 case 16 % schoolsup
                     cmp = strcmp(cell{i,j},querycell{x,j});
                     if cmp == true
-                        vec(j) = 1*schoolsup_pond;      
+                        vec(j) = 0*schoolsup_pond;      
                     elseif cmp == false
-                        vec(j) = 0*schoolsup_pond;  
+                        vec(j) = 1*schoolsup_pond;  
                     end
 
                 case 17 % famsup
                     cmp = strcmp(cell{i,j},querycell{x,j});
                     if cmp == true
-                        vec(j) = 1*famsup_pond;      
+                        vec(j) = 0*famsup_pond;      
                     elseif cmp == false
-                        vec(j) = 0*famsup_pond;  
+                        vec(j) = 1*famsup_pond;  
                     end
 
                 case 18 % paid
                     cmp = strcmp(cell{i,j},querycell{x,j});
                     if cmp == true
-                        vec(j) = 1*paid_pond;      
+                        vec(j) = 0*paid_pond;      
                     elseif cmp == false
-                        vec(j) = 0*paid_pond;  
+                        vec(j) = 1*paid_pond;  
                     end
 
                 case 19 % activities
                     cmp = strcmp(cell{i,j},querycell{x,j});
                     if cmp == true
-                        vec(j) = 1*activities_pond;      
+                        vec(j) = 0*activities_pond;      
                     elseif cmp == false
-                        vec(j) = 0*activities_pond;  
+                        vec(j) = 1*activities_pond;  
                     end
 
                 case 20 % nursery
                     cmp = strcmp(cell{i,j},querycell{x,j});
                     if cmp == true
-                        vec(j) = 1*nursery_pond;      
+                        vec(j) = 0*nursery_pond;      
                     elseif cmp == false
-                        vec(j) = 0*nursery_pond;  
+                        vec(j) = 1*nursery_pond;  
                     end
 
                 case 21 % higher
                     cmp = strcmp(cell{i,j},querycell{x,j});
                     if cmp == true
-                        vec(j) = 1*higher_pond;      
+                        vec(j) = 0*higher_pond;      
                     elseif cmp == false
-                        vec(j) = 0*higher_pond;  
+                        vec(j) = 1*higher_pond;  
                     end
 
                 case 22 % internet
                     cmp = strcmp(cell{i,j},querycell{x,j});
                     if cmp == true
-                        vec(j) = 1*internet_pond;      
+                        vec(j) = 0*internet_pond;      
                     elseif cmp == false
-                        vec(j) = 0*internet_pond;  
+                        vec(j) = 1*internet_pond;  
                     end
 
                 case 23 % romantic
                     cmp = strcmp(cell{i,j},querycell{x,j});
                     if cmp == true
-                        vec(j) = 1*romantic_pond;      
+                        vec(j) = 0*romantic_pond;      
                     elseif cmp == false
-                        vec(j) = 0*romantic_pond;  
+                        vec(j) = 1*romantic_pond;  
                     end
 
                 case 24 % famrel
@@ -2032,7 +2032,6 @@ writetable(novatabela, 'ranks.csv');
 %writetable(novatabela,'ranks+cases.csv'); % grava os ranks com a tabela
 
 
-
 % Fim do programa
 fprintf('=');
 fprintf('\nTask Complete!\n');
@@ -2108,33 +2107,44 @@ queriesCell = table2cell(queriesTable);
 [rows, columns] = size(ranksTable);
 [rowsq, columnsq] = size(queriesTable);
 
-vec = zeros(1,columns,'double');
+%vec = zeros(2,columns,'double');
+vec = cell(2,columns);
 
 
-for i = 1 : rows
+for col = 1 : columns
     
     maxVal = 0;
     
-    for j = 1 : columns
+    for lin = 1 : rows
         
-        if ranksCell{i,j} > maxVal
-            maxVal = ranksCell{i,j};
+        if ranksCell{lin,col} > maxVal
+            maxVal = ranksCell{lin,col};
+            vec{1,col} = maxVal; % o maior valor de cada coluna
+            vec{2,col} = lin; % guarda o indice dos cas
         end
            
     end
-    vec(i) = maxVal;
+    
+    
 end
-clc
 
-for i = 1 : columns
-    if vec(i) > 0.6
-        disp(vec(i));
-        for j = 1: columnsq
-            fprintf(queriesCell{i,j});
-            fprintf(' ');
-        end
-    end
-end
+
+
+disp(vec);
+
+% for i = 1 : columns
+%     if vec(i) > 0.9 % retira-se apenas as entradas com semelha?a superior a 0.9
+% 
+%         disp(vec(i));
+%         fprintf(' ');
+%         %disp(j);
+%         for j = 1: columnsq
+%             
+%             fprintf(queriesCell{i,j});
+%             fprintf(' ');
+%         end
+%     end
+% end
 
 
 % --- Executes on button press in pond1.

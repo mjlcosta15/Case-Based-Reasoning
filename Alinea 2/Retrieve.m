@@ -2032,7 +2032,6 @@ writetable(novatabela, 'ranks.csv');
 %writetable(novatabela,'ranks+cases.csv'); % grava os ranks com a tabela
 
 
-
 % Fim do programa
 fprintf('=');
 fprintf('\nTask Complete!\n');
@@ -2108,31 +2107,51 @@ queriesCell = table2cell(queriesTable);
 [rows, columns] = size(ranksTable);
 [rowsq, columnsq] = size(queriesTable);
 
-vec = zeros(1,columns,'double');
+%vec = zeros(2,columns,'double');
+vec = cell(2,columns);
 
 
-for i = 1 : rows
+for col = 1 : columns
     
     maxVal = 0;
     
-    for j = 1 : columns
+    for lin = 1 : rows
         
-        if ranksCell{i,j} > maxVal
-            maxVal = ranksCell{i,j};
+        if ranksCell{lin,col} > maxVal
+            maxVal = ranksCell{lin,col};
+            vec{1,col} = maxVal; % o maior valor de cada coluna
+            vec{2,col} = lin; % guarda o indice dos 
         end
            
     end
-    vec(i) = maxVal;
+    
+    
 end
-clc
+
+
+
+disp(vec);
+
+
 
 for i = 1 : columns
-    if vec(i) > 0.6
-        disp(vec(i));
-        for j = 1: columnsq
-            fprintf(queriesCell{i,j});
-            fprintf(' ');
+    strRow = '';
+    if vec{1,i} > 0.93 % retira-se apenas as entradas com semelha?a superior a 0.93
+        
+        disp(vec{1,i});
+        %disp(queriesCell(i,:));
+        for j = 1 : 33
+            if j == 33
+                entry = queriesCell{i,j};
+                strRow = strcat(strRow,entry,'');
+            elseif j ~= 33
+                entry = queriesCell{i,j};
+                strRow = strcat(strRow,entry,';');
+            end
         end
+        
+        dlmwrite('por1.csv',strRow,'Delimiter','','-append'); 
+        
     end
 end
 
