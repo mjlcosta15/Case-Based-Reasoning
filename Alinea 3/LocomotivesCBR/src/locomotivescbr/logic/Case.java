@@ -72,7 +72,7 @@ public class Case {
     }
 
     public Case linearDistance(Case newCase) {
-        System.out.println("Entries -> " + newCase.getLocomotive() +", " + newCase.getHeadlight()+", " + newCase.getShort_circuit());
+        //ystem.out.println("Entries -> " + newCase.getLocomotive() +", " + newCase.getHeadlight()+", " + newCase.getShort_circuit());
         Case c = new Case(this);
         float totalWeight = LOCOMOTIVE_WEIGHT + HEADLIGHT_WEIGHT + SHORT_CIRCUIT_WEIGHT;
 
@@ -83,13 +83,13 @@ public class Case {
         float numerator = (distLoc * LOCOMOTIVE_WEIGHT) + (distHead * HEADLIGHT_WEIGHT) + (distShortCir * SHORT_CIRCUIT_WEIGHT);
         
         c.setResult(1 - (numerator / totalWeight));
-        System.out.println(c.getResult());
+        //System.out.println(c.getResult());
         return c;
 
     }
 
     public Case euclideanDistance(Case newCase) {
-        System.out.println("Entries -> " + newCase.getLocomotive() +", " + newCase.getHeadlight()+", " + newCase.getShort_circuit());
+        //System.out.println("Entries -> " + newCase.getLocomotive() +", " + newCase.getHeadlight()+", " + newCase.getShort_circuit());
         Case c = new Case(this);
         double totalWeight = LOCOMOTIVE_WEIGHT + HEADLIGHT_WEIGHT + SHORT_CIRCUIT_WEIGHT ;
        
@@ -102,7 +102,7 @@ public class Case {
                 + (distShortCir * SHORT_CIRCUIT_WEIGHT);
         
         c.setResult((float) (1 - Math.sqrt(numerator / totalWeight)));
-        System.out.println(c.getResult());
+        //System.out.println(c.getResult());
         return c;
     }
 

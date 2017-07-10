@@ -40,7 +40,7 @@ public class SqlQueries {
             + "proc922,"
             + "proc923,"
             + "proc924) \n"
-            + "VALUES (1,1,1,1,1,1,1,1,0,0,0,0)";
+            + "VALUES (0,0,1,1,1,1,1,1,0,0,0,0)";
     
     public static final String case21 = "INSERT INTO Cases "
             + "(locomotive, "
@@ -55,6 +55,6 @@ public class SqlQueries {
             + "proc922,"
             + "proc923,"
             + "proc924) \n"
-            + "VALUES (1,1,0,0,0,0,0,0,1,1,1,1)";
+            + "VALUES (0,0,0,0,0,0,0,0,1,1,1,1)";
     
 }

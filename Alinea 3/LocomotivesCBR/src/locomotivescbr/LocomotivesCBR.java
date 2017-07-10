@@ -35,10 +35,10 @@ public class LocomotivesCBR {
             case 0:
                 System.exit(0);
             case 1:
-                loc = 0;
+                loc = 1;
                 break;
             case 2:
-                loc = 1;
+                loc = 0;
                 break;
             default:
                 break;
@@ -51,10 +51,10 @@ public class LocomotivesCBR {
             case 0:
                 System.exit(0);
             case 1:
-                head = 0;
+                head = 1;
                 break;
             case 2:
-                head = 1;
+                head = 0;
                 break;
             default:
                 break;
@@ -102,7 +102,7 @@ public class LocomotivesCBR {
         }
         Case result = engine.getBestMatch();
         if (result != null) {
-            System.out.println("Result:\n" + result.getResult() + "\nSolution:\n" + result.printSolution());
+            System.out.println("Result:\n" + String.format("%.2f%%",result.getResult()*100) + "\nSolution:\n" + result.printSolution());
         } else {
             System.out.println("There is no solution to the problem.");
         }
