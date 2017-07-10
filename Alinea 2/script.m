@@ -57,7 +57,7 @@ for i = 1 : length(part1) % percorre o vetor
         
         if isnumeric(entry)
             entry = num2str(entry);
-            disp(entry);
+            %disp(entry);
         end
         
         if j==columns % divide notas de 1 a 4
@@ -136,10 +136,12 @@ for i = 1 : length(part2) % percorre o vetor
     dlmwrite('por2.csv',strRow,'Delimiter','','-append'); 
     
 end
+
+entry = strcat('school',';','sex',';','age',';','address',';','famsize',';','Pstatus',';','Medu',';','Fedu',';','Mjob',';','Fjob',';','reason',';','guardian',';','traveltime',';','studytime',';','failures',';','schoolsup',';','famsup',';','paid',';','activities',';','nursery',';','higher',';','internet',';','romantic',';','famrel',';','freetime',';','goout',';','Dalc',';','Walc',';','health',';','absences',';','G1',';','G2',';','G3');
+dlmwrite('por1.csv',entry,'Delimiter','','-append'); % escreve cabe?alhos
+dlmwrite('por2.csv',entry,'Delimiter','','-append');
 fprintf('=');
 fprintf('\nTask Complete!\n');
-
-disp(cell);
  
 
 
